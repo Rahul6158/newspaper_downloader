@@ -4,7 +4,8 @@ def main():
     st.title('Newspaper Links')
 
     # Define newspaper companies and dates
-    companies = ['AP', 'TS']
+    states = ['AP', 'TS']
+    companies = ['Eenadu', 'Sakshi']
     dates = [
         "July 23, 2024",
         "July 22, 2024",
@@ -28,28 +29,32 @@ def main():
         "July 3, 2024"
     ]
 
-    # Create dropdowns for selecting company and date
+    # Create dropdowns for selecting state, company, and date
+    selected_state = st.selectbox('Select State', states)
     selected_company = st.selectbox('Select Newspaper Company', companies)
     selected_date = st.selectbox('Select Date', dates)
 
     # Define dictionary with newspaper links
     newspaper_links = {
         "July 23, 2024": {
-            "AP": "https://drive.google.com/file/d/1RPEq2cEtl-AkVh1_E5SIcRjosS9EL7X_/view?usp=drive_link",
-            "TS": "https://drive.google.com/file/d/1FGvM4xnhfZuLzPuKrKtORbiKEgRR1pC4/view?usp=drive_link"
+            "AP": {
+                "Eenadu": "https://eenadu.net/july-23-2024-ap-eenadu",
+                "Sakshi": "https://sakshi.net/july-23-2024-ap-sakshi"
+            },
+            "TS": {
+                "Eenadu": "https://eenadu.net/july-23-2024-ts-eenadu",
+                "Sakshi": "https://sakshi.net/july-23-2024-ts-sakshi"
+            }
         },
         "July 22, 2024": {
-            "AP": "https://drive.google.com/file/d/11gm91EhEakpO68Bdn_k9VcR7EU5TSbs1/view?usp=sharing",
-            "TS": "https://drive.google.com/file/d/1H4QbQXaOrTC1qHpUzVphdbHR0UqUmass/view?usp=drive_link"
-        },
-        "July 20, 2024": {
-            "AP": "https://drive.google.com/file/d/1myejG97s14gsU7uIgVMvyYV5b_-SEcUX/view?usp=drive_link",
-            "TS": "https://drive.google.com/file/d/1EwiyphKa74QUaSsurag_N2GLc-Kkqiz_/view?usp=drive_link"
-        },
-        "July 19, 2024": {
-            "AP": "https://drive.google.com/file/d/1VZ62M8xjjadqFGe0u9WC-xYl_mcD87T2/view?usp=drive_link",
-            "TS": "https://drive.google.com/file/d/1lwLXv5vGQ6oSHu24OLEzN1NDlpNaa_RG/view?usp=drive_link"
-        },
+            "AP": {
+                "Eenadu": "https://eenadu.net/july-22-2024-ap-eenadu",
+                "Sakshi": "https://sakshi.net/july-22-2024-ap-sakshi"
+            },
+            "TS": {
+                "Eenadu": "https://eenadu.net/july-22-2024-ts-eenadu",
+                "Sakshi": "https://sakshi.net/july-22-2024-ts-sakshi"
+            },
         "July 18, 2024": {
             "AP": "https://drive.google.com/file/d/1OFRJe0r_zhL4dQJO_W-AE0wdDQz7HDgd/view?usp=drive_link",
             "TS": "https://drive.google.com/file/d/15TXDoNRLKaYa_pA3KCVIU_qJvCFGxG0T/view?usp=drive_link"
