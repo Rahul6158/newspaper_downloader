@@ -34,7 +34,6 @@ def main():
     selected_state = st.selectbox('Select State', states)
     selected_date = st.selectbox('Select Date', dates)
 
-
     # Define dictionary with newspaper links
     enadu_links = {
     "July 23, 2024": {
@@ -777,21 +776,14 @@ vaartha_links = {
     },
 }
 
-    # Dictionary to map company names to their respective link dictionaries
-newspaper_links = {
-        'Enadu': enadu_links,
-        'Sakshi': sakshi_links,
-        'Andhra Jyothi': andhra_jyothi_links,
-        'Vaartha': vaartha_links
-    }
 
     # Get the link based on selected company, state, and date
-company_links = newspaper_links.get(selected_company, {})
-link = company_links.get(selected_date, {}).get(selected_state, None)
+    company_links = newspaper_links.get(selected_company, {})
+    link = company_links.get(selected_date, {}).get(selected_state, None)
 
-if link:
+    if link:
         st.markdown(f"[Open {selected_company} Newspaper for {selected_state} on {selected_date}]({link})")
-else:
+    else:
         st.write("Link not available for the selected date, company, and state.")
 
 if __name__ == "__main__":
