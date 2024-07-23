@@ -1,7 +1,7 @@
 import streamlit as st
 
 def main():
-    st.title('Newspaper Links')
+    st.title('Download Desired Newspapers')
 
     # Define newspaper companies, states, and dates
     companies = ['Enadu', 'Sakshi', 'Andhra Jyothi', 'Vaartha']
