@@ -35,6 +35,7 @@ def main():
     selected_date = st.selectbox('Select Date', dates)
 
     # Debugging statements to check selected values
+    st.subheader("Selected Data")
     st.write(f"Selected Company: {selected_company}")
     st.write(f"Selected State: {selected_state}")
     st.write(f"Selected Date: {selected_date}")
@@ -793,7 +794,7 @@ def main():
 
     # Debugging statements to check dictionary access
     st.write("Newspaper Links Dictionary Loaded")
-
+    
     # Get the link based on selected company, state, and date
     company_links = newspaper_links.get(selected_company, {})
     link = company_links.get(selected_date, {}).get(selected_state, None)
