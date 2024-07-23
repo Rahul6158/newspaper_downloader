@@ -4,7 +4,7 @@ def main():
     st.title('Newspaper Links')
 
     # Define newspaper companies, states, and dates
-    companies = ['Enadu', 'Sakshi', 'Andhra Jyothi']
+    companies = ['Enadu', 'Sakshi', 'Andhra Jyothi', 'Vaartha']
     states = ['AP', 'TS']
     dates = [
         "July 23, 2024",
@@ -33,6 +33,7 @@ def main():
     selected_company = st.selectbox('Select Newspaper Company', companies)
     selected_state = st.selectbox('Select State', states)
     selected_date = st.selectbox('Select Date', dates)
+
 
     # Define dictionary with newspaper links
     sakshi_links = {
