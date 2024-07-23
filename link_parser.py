@@ -20,6 +20,16 @@ def parse_html_to_dict(html):
     
     return sakshi_links
 
+def format_dict_as_string(dict_name, dictionary):
+    output = f"{dict_name} = {{\n"
+    for date, links in dictionary.items():
+        output += f'    "{date}": {{\n'
+        for label, url in links.items():
+            output += f'        "{label}": "{url}",\n'
+        output += f'    }},\n'
+    output += "}"
+    return output
+
 # Streamlit UI
 st.title("Extract Links from HTML")
 
@@ -33,12 +43,11 @@ if st.button("Parse HTML"):
         # Parse the HTML and get the links dictionary
         sakshi_links = parse_html_to_dict(html_input)
         
-        # Create the output string
-        output_string = f"{dict_name} = {sakshi_links}"
+        # Format the output string
+        output_string = format_dict_as_string(dict_name, sakshi_links)
         
         # Display the result
         st.subheader("Extracted Links:")
         st.code(output_string, language="python")
     else:
         st.error("Please provide both HTML input and dictionary name before clicking 'Parse HTML'.")
-
