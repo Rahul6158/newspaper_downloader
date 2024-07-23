@@ -795,9 +795,6 @@ def main():
         'Andhra Jyothi': andhra_jyothi_links,
         'Vaartha': vaartha_links
     }
-
-    # Debugging statements to check dictionary access
-    st.write("Newspaper Links Dictionary Loaded")
     
     # Get the link based on selected company, state, and date
     company_links = newspaper_links.get(selected_company, {})
