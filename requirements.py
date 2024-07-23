@@ -237,8 +237,9 @@ def main():
         "AP": "https://drive.google.com/file/d/1uAZN-n89GgI6u95DZ8txfUpupbKWSX-m/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/16Ip-jiiLo7XqGqx55L1aZEas143x10ED/view?usp=drive_link",
     },
-  }
-    
+}
+
+
     sakshi_links = {
     "July 23, 2024": {
         "AP": "https://drive.google.com/file/d/1Jc9TSzo3eISjwaSe28MPDgMLToNqBBSW/view?usp=drive_link",
@@ -324,9 +325,10 @@ def main():
         "AP": "https://drive.google.com/file/d/1Yb4dwYZAUkk3W4f4fq8a7nRzqZKO3H44/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1RTch8iE-wRGa_CmfD4kHfsqKjyFQ9Dgn/view?usp=drive_link"
     },
-  }
+}
 
-   andhra_jyothi_links = {
+
+    andhra_jyothi_links = {
     "July 23, 2024": {
         "AP": "https://drive.google.com/file/d/1Jc9TSzo3eISjwaSe28MPDgMLToNqBBSW/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1QUneyxyYMN9pgY4mAL41Zc3jNekCD49Y/view?usp=drive_link",
@@ -555,9 +557,10 @@ def main():
         "AP": "https://drive.google.com/file/d/1WsRVrtFSI2C0Jg8JioqQDu-gWspptKm4/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1f3Dxu2Gai6WS0SJmY-spLuodwCXWUMDq/view?usp=drive_link",
     },
-  }
+}
 
-   vaartha_links = {
+
+    vaartha_links = {
     "July 23, 2024": {
         "AP": "https://drive.google.com/file/d/17o7wPKPr3reiUBJBKEiIAmPgAfHmk3uV/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1gOa45CMpouE6Zi-Mq7sM6S0cNUlEWJXk/view?usp=drive_link",
@@ -778,8 +781,9 @@ def main():
         "AP": "https://drive.google.com/file/d/10nH0v3kzaLkGsV-buzQrD58U-qLVn1jq/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1W5qP5PG5Hpu-QhuvfQgPBqb1AcUIgY_9/view?usp=drive_link",
     },
-  }
- # Dictionary to map company names to their respective link dictionaries
+}
+
+    # Dictionary to map company names to their respective link dictionaries
     newspaper_links = {
         'Enadu': enadu_links,
         'Sakshi': sakshi_links,
