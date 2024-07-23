@@ -1,16 +1,37 @@
 import streamlit as st
 from bs4 import BeautifulSoup
+from datetime import datetime
 
 # Define a function to parse HTML and extract links
 def parse_html_to_dict(html):
     soup = BeautifulSoup(html, 'html.parser')
     sakshi_links = {}
     
+    # Helper function to normalize dates
+    def normalize_date(date_str):
+        try:
+            # Try different date formats
+            date_obj = datetime.strptime(date_str, '%d %B %Y')
+        except ValueError:
+            try:
+                date_obj = datetime.strptime(date_str, '%d %B %Y')
+            except ValueError:
+                try:
+                    date_obj = datetime.strptime(date_str, '%d %b %Y')
+                except ValueError:
+                    date_obj = datetime.strptime(date_str, '%B %d, %Y')
+        return date_obj.strftime('%B %d, %Y')
+
     for p in soup.find_all('p'):
         text = p.get_text()
-        date, _ = text.split(': ', 1)
-        links_dict = {}
+        # Split text to get date and links
+        try:
+            date, _ = text.split(': ', 1)
+            date = normalize_date(date.strip())
+        except ValueError:
+            continue
         
+        links_dict = {}
         for a in p.find_all('a'):
             label = a.text
             url = a['href']
