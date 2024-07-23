@@ -790,7 +790,7 @@ def main():
     company_links = newspaper_links.get(selected_company, {})
     link = company_links.get(selected_date, {}).get(selected_state, None)
 
-    st.subheader("Download Link :")
+    st.subheader("Download Link : {link}")
 # Debugging statements to check link generation
     if link:
         st.markdown(f"[Open {selected_company} Newspaper for {selected_state} on {selected_date}]({link})")
