@@ -797,9 +797,12 @@ def main():
     # Get the link based on selected company, state, and date
     company_links = newspaper_links.get(selected_company, {})
     link = company_links.get(selected_date, {}).get(selected_state, None)
+    
+# Debugging statements to check link generation
+    st.write(f"Generated Link: {link}")
 
     if link:
-        st.markdown("({link})")
+        st.markdown(f"[Open {selected_company} Newspaper for {selected_state} on {selected_date}]({link})")
     else:
         st.write("Link not available for the selected date, company, and state.")
 
