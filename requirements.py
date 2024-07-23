@@ -35,15 +35,7 @@ def main():
     selected_date = st.selectbox('Select Date', dates)
 
     st.write('<p style="line-height:1.5;"><br><br></p>', unsafe_allow_html=True)
-
-    # Debugging statements to check selected values
-    st.subheader("Selected Data")
-    st.write(f"Selected Company: {selected_company}")
-    st.write(f"Selected State: {selected_state}")
-    st.write(f"Selected Date: {selected_date}")
-
-    st.write('<p style="line-height:1.5;"><br><br></p>', unsafe_allow_html=True)
-
+    
     # Define dictionary with newspaper links
     enadu_links = {
     "July 23, 2024": {
@@ -807,5 +799,11 @@ def main():
     else:
         st.write("Link not available for the selected date, company, and state.")
 
+    # Debugging statements to check selected values
+    st.subheader("Selected Data")
+    st.write(f"Selected Company: {selected_company}")
+    st.write(f"Selected State: {selected_state}")
+    st.write(f"Selected Date: {selected_date}")
+    
 if __name__ == "__main__":
     main()
