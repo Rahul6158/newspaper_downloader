@@ -34,7 +34,7 @@ def main():
     selected_state = st.selectbox('Select State', states)
     selected_date = st.selectbox('Select Date', dates)
 
-    st.write('<p style="line-height:1.5;">Line 1<br>Line 2<br>Line 3</p>', unsafe_allow_html=True)
+    st.write('<p style="line-height:1.5;"><br><br></p>', unsafe_allow_html=True)
 
     # Debugging statements to check selected values
     st.subheader("Selected Data")
@@ -42,7 +42,7 @@ def main():
     st.write(f"Selected State: {selected_state}")
     st.write(f"Selected Date: {selected_date}")
 
-    st.write('<p style="line-height:1.5;">Line 1<br>Line 2<br>Line 3</p>', unsafe_allow_html=True)
+    st.write('<p style="line-height:1.5;"><br><br></p>', unsafe_allow_html=True)
 
     # Define dictionary with newspaper links
     enadu_links = {
