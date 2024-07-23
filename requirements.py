@@ -795,7 +795,7 @@ def main():
     if link:
         st.markdown(f"[Open {selected_company} Newspaper for {selected_state} on {selected_date}]({link})")
     else:
-        st.write("Link not available for the selected date, company, and state or the day mmay be *sunday*.")
+        st.write("Link not available for the selected date, company, and state or the day you selected may be *_SUNDAY_*.")
 
     st.write('<p style="line-height:1.5;"><br><br></p>', unsafe_allow_html=True)
     
