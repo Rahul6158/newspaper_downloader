@@ -801,7 +801,7 @@ def main():
     st.header("Download Link :")
 # Debugging statements to check link generation
     if link:
-        st.markdown(f"[Open {selected_company} Newspaper for {selected_state} on {selected_date}]({link})")
+        st.subheader(f"[Open {selected_company} Newspaper for {selected_state} on {selected_date}]({link})")
     else:
         st.write("Link not available for the selected date, company, and state.")
 
