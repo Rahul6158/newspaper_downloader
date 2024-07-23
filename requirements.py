@@ -777,13 +777,27 @@ vaartha_links = {
 }
 
 
-    # Get the link based on selected company, state, and date
-company_links = newspaper_links.get(selected_company, {})
-link = company_links.get(selected_date, {}).get(selected_state, None)
+ # Dictionary to map company names to their respective link dictionaries
+    newspaper_links = {
+        'Enadu': enadu_links,
+        'Sakshi': sakshi_links,
+        'Andhra Jyothi': andhra_jyothi_links,
+        'Vaartha': vaartha_links
+    }
 
-if link:
+    # Debugging statements to check dictionary access
+    st.write("Newspaper Links Dictionary Loaded")
+
+    # Get the link based on selected company, state, and date
+    company_links = newspaper_links.get(selected_company, {})
+    link = company_links.get(selected_date, {}).get(selected_state, None)
+
+    # Debugging statements to check link generation
+    st.write(f"Generated Link: {link}")
+
+    if link:
         st.markdown(f"[Open {selected_company} Newspaper for {selected_state} on {selected_date}]({link})")
-else:
+    else:
         st.write("Link not available for the selected date, company, and state.")
 
 if __name__ == "__main__":
