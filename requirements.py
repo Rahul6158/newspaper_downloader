@@ -46,8 +46,8 @@ def main():
                 "TS": "https://drive.google.com/file/d/1FGvM4xnhfZuLzPuKrKtORbiKEgRR1pC4/view?usp=drive_link"
             },
             "Andhra Jyothi": {
-                "AP": "https://drive.google.com/file/d/1IFx7AzY_kPsl03ONm1uMmfkRaGrMP5X4/view?usp=drive_link",
-                "TS": "https://drive.google.com/file/d/1SD9DPt4t3wIjgFMu2NllcT8vjv5OGNuG/view?usp=drive_link"
+                "AP": "https://drive.google.com/file/d/1QKbSX-ZT0YbvFN7pY6b3jfLrV3AJuAJQ/view?usp=drive_link",
+                "TS": "https://drive.google.com/file/d/12bb1gcn8pHrruV7EOjv3E6XlIgAVtu4w/view?usp=drive_link"
             }
         },
         "July 22, 2024": {
