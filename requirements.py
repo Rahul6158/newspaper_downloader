@@ -3,7 +3,7 @@ import streamlit as st
 def main():
     st.title('Newspaper Links')
 
-    # Define newspaper companies and dates
+    # Define newspaper companies, states, and dates
     companies = ['Enadu', 'Sakshi']
     states = ['AP', 'TS']
     dates = [
@@ -29,7 +29,7 @@ def main():
         "July 3, 2024"
     ]
 
-    # Create dropdowns for selecting company, state and date
+    # Create dropdowns for selecting company, state, and date
     selected_company = st.selectbox('Select Newspaper Company', companies)
     selected_state = st.selectbox('Select State', states)
     selected_date = st.selectbox('Select Date', dates)
@@ -119,132 +119,133 @@ def main():
         "July 14, 2024": {
             "Enadu": {
                 "AP": "https://drive.google.com/file/d/1Wj4qXgTb0V-8g8ovZ--_Ea-vl87yBPMF/view?usp=drive_link",
-                "TS": "https://drive.google.com/file/d/1nbj5Uz3fFh7ZB1HdmHvotBQ2DQ1yboFw/view?usp=drive_link"
+                "TS": "https://drive.google.com/file/d/1nbj5Uz3fFh7ZB1HdmHvotBQ2DQ1y34oK/view?usp=drive_link"
             },
             "Sakshi": {
                 "AP": "https://drive.google.com/file/d/1Wj4qXgTb0V-8g8ovZ--_Ea-vl87yBPMF/view?usp=drive_link",
-                "TS": "https://drive.google.com/file/d/1nbj5Uz3fFh7ZB1HdmHvotBQ2DQ1yboFw/view?usp=drive_link"
+                "TS": "https://drive.google.com/file/d/1nbj5Uz3fFh7ZB1HdmHvotBQ2DQ1y34oK/view?usp=drive_link"
             }
         },
         "July 13, 2024": {
             "Enadu": {
-                "AP": "https://drive.google.com/file/d/1BtzkI8y8a79MLV3pb2j3kpT5I4YQeKdK/view?usp=drive_link",
-                "TS": "https://drive.google.com/file/d/1A7RoGmEbrinldMnVYNUUg6xKZ6mjIEtR/view?usp=drive_link"
+                "AP": "https://drive.google.com/file/d/1ctOT6gW4MPA9DQs9Y3-aV43TIwbBHPzO/view?usp=drive_link",
+                "TS": "https://drive.google.com/file/d/1k5zmO7tm-DHeX5yFbKnEuZQY66QsJMPz/view?usp=drive_link"
             },
             "Sakshi": {
-                "AP": "https://drive.google.com/file/d/1BtzkI8y8a79MLV3pb2j3kpT5I4YQeKdK/view?usp=drive_link",
-                "TS": "https://drive.google.com/file/d/1A7RoGmEbrinldMnVYNUUg6xKZ6mjIEtR/view?usp=drive_link"
+                "AP": "https://drive.google.com/file/d/1ctOT6gW4MPA9DQs9Y3-aV43TIwbBHPzO/view?usp=drive_link",
+                "TS": "https://drive.google.com/file/d/1k5zmO7tm-DHeX5yFbKnEuZQY66QsJMPz/view?usp=drive_link"
             }
         },
         "July 12, 2024": {
             "Enadu": {
-                "AP": "https://drive.google.com/file/d/1b5wn1TC7wBtH28Mr_k2A0c8mWm2f6r3e/view?usp=drive_link",
-                "TS": "https://drive.google.com/file/d/1bg8hK0-tgj-5rYjQIotxh6A1RXmNlM7l/view?usp=drive_link"
+                "AP": "https://drive.google.com/file/d/1JPqlbCEv5sl5cfHe_sR7niBQbmE5l1Vd/view?usp=drive_link",
+                "TS": "https://drive.google.com/file/d/1icDKiW45kTKP3MfDSDyeQSHWBvQ76-GH/view?usp=drive_link"
             },
             "Sakshi": {
-                "AP": "https://drive.google.com/file/d/1b5wn1TC7wBtH28Mr_k2A0c8mWm2f6r3e/view?usp=drive_link",
-                "TS": "https://drive.google.com/file/d/1bg8hK0-tgj-5rYjQIotxh6A1RXmNlM7l/view?usp=drive_link"
+                "AP": "https://drive.google.com/file/d/1JPqlbCEv5sl5cfHe_sR7niBQbmE5l1Vd/view?usp=drive_link",
+                "TS": "https://drive.google.com/file/d/1icDKiW45kTKP3MfDSDyeQSHWBvQ76-GH/view?usp=drive_link"
             }
         },
         "July 11, 2024": {
             "Enadu": {
-                "AP": "https://drive.google.com/file/d/1zOu1ovWcZmZ6Xux2X3cddnv0I-FV-F43/view?usp=drive_link",
-                "TS": "https://drive.google.com/file/d/1lHjP1I1mKb6UWh7yHIB3xg-D2hLExfQD/view?usp=drive_link"
+                "AP": "https://drive.google.com/file/d/1dtMLZKZ2YAr_fXphZLTNR8D-E4hVJxNw/view?usp=drive_link",
+                "TS": "https://drive.google.com/file/d/1LUF2_Hy2-bUXHHG1CX-MC7A4MVPkW-Lz/view?usp=drive_link"
             },
             "Sakshi": {
-                "AP": "https://drive.google.com/file/d/1zOu1ovWcZmZ6Xux2X3cddnv0I-FV-F43/view?usp=drive_link",
-                "TS": "https://drive.google.com/file/d/1lHjP1I1mKb6UWh7yHIB3xg-D2hLExfQD/view?usp=drive_link"
+                "AP": "https://drive.google.com/file/d/1dtMLZKZ2YAr_fXphZLTNR8D-E4hVJxNw/view?usp=drive_link",
+                "TS": "https://drive.google.com/file/d/1LUF2_Hy2-bUXHHG1CX-MC7A4MVPkW-Lz/view?usp=drive_link"
             }
         },
         "July 10, 2024": {
             "Enadu": {
-                "AP": "https://drive.google.com/file/d/1zrMgUy1jH9tA9M8Y8cZxMC4-QnUVbDVo/view?usp=drive_link",
-                "TS": "https://drive.google.com/file/d/1V_9c6R_WIscQZ-5YrEPrd1ogT8mYPz2b/view?usp=drive_link"
+                "AP": "https://drive.google.com/file/d/1r9yKX5UBg_D0rh-4so_KZRI8lj5DRVCX/view?usp=drive_link",
+                "TS": "https://drive.google.com/file/d/1zMmGyDSmQ9nZsBhFZqToGuij26pUK7FS/view?usp=drive_link"
             },
             "Sakshi": {
-                "AP": "https://drive.google.com/file/d/1zrMgUy1jH9tA9M8Y8cZxMC4-QnUVbDVo/view?usp=drive_link",
-                "TS": "https://drive.google.com/file/d/1V_9c6R_WIscQZ-5YrEPrd1ogT8mYPz2b/view?usp=drive_link"
+                "AP": "https://drive.google.com/file/d/1r9yKX5UBg_D0rh-4so_KZRI8lj5DRVCX/view?usp=drive_link",
+                "TS": "https://drive.google.com/file/d/1zMmGyDSmQ9nZsBhFZqToGuij26pUK7FS/view?usp=drive_link"
             }
         },
         "July 9, 2024": {
             "Enadu": {
-                "AP": "https://drive.google.com/file/d/1WOSgYXu3OGY0VwOoTnPS3js1mm5NLQu_/view?usp=drive_link",
-                "TS": "https://drive.google.com/file/d/1WOSgYXu3OGY0VwOoTnPS3js1mm5NLQu_/view?usp=drive_link"
+                "AP": "https://drive.google.com/file/d/10OWKDiCPNNjOiZ_GV1PlEYI82hStdtT3/view?usp=drive_link",
+                "TS": "https://drive.google.com/file/d/1KShYyS4otg2PrDmlLF7nff0nH9XPu7fV/view?usp=drive_link"
             },
             "Sakshi": {
-                "AP": "https://drive.google.com/file/d/1WOSgYXu3OGY0VwOoTnPS3js1mm5NLQu_/view?usp=drive_link",
-                "TS": "https://drive.google.com/file/d/1WOSgYXu3OGY0VwOoTnPS3js1mm5NLQu_/view?usp=drive_link"
+                "AP": "https://drive.google.com/file/d/10OWKDiCPNNjOiZ_GV1PlEYI82hStdtT3/view?usp=drive_link",
+                "TS": "https://drive.google.com/file/d/1KShYyS4otg2PrDmlLF7nff0nH9XPu7fV/view?usp=drive_link"
             }
         },
         "July 8, 2024": {
             "Enadu": {
-                "AP": "https://drive.google.com/file/d/1XtqGLnNnciJpL6Mz90F1pEZMoSAC7fWE/view?usp=drive_link",
-                "TS": "https://drive.google.com/file/d/1i0xg3cp7pejFJjvjMJcS55wUcr5Lxcxm/view?usp=drive_link"
+                "AP": "https://drive.google.com/file/d/1h7SUQQep8gfp2UDNCC2Rsm6H-R8oixHS/view?usp=drive_link",
+                "TS": "https://drive.google.com/file/d/1BWOB5jO3Xs2Cr9Me9M4S7YelW0rxAE00/view?usp=drive_link"
             },
             "Sakshi": {
-                "AP": "https://drive.google.com/file/d/1XtqGLnNnciJpL6Mz90F1pEZMoSAC7fWE/view?usp=drive_link",
-                "TS": "https://drive.google.com/file/d/1i0xg3cp7pejFJjvjMJcS55wUcr5Lxcxm/view?usp=drive_link"
+                "AP": "https://drive.google.com/file/d/1h7SUQQep8gfp2UDNCC2Rsm6H-R8oixHS/view?usp=drive_link",
+                "TS": "https://drive.google.com/file/d/1BWOB5jO3Xs2Cr9Me9M4S7YelW0rxAE00/view?usp=drive_link"
             }
         },
         "July 7, 2024": {
             "Enadu": {
-                "AP": "https://drive.google.com/file/d/1X6AQK2U3ZatUOvXHK7nmK9G1sDhLkH5H/view?usp=drive_link",
-                "TS": "https://drive.google.com/file/d/1XuH6PZ0dSFO0yexGcJgkUZatBfD7K7DI/view?usp=drive_link"
+                "AP": "https://drive.google.com/file/d/1iJsvHgWn4tmO2t7XSVtlkaDDksX98tPR/view?usp=drive_link",
+                "TS": "https://drive.google.com/file/d/1a7EL93YweYHlLBnK6qJWazNiHZ-_2lmh/view?usp=drive_link"
             },
             "Sakshi": {
-                "AP": "https://drive.google.com/file/d/1X6AQK2U3ZatUOvXHK7nmK9G1sDhLkH5H/view?usp=drive_link",
-                "TS": "https://drive.google.com/file/d/1XuH6PZ0dSFO0yexGcJgkUZatBfD7K7DI/view?usp=drive_link"
+                "AP": "https://drive.google.com/file/d/1iJsvHgWn4tmO2t7XSVtlkaDDksX98tPR/view?usp=drive_link",
+                "TS": "https://drive.google.com/file/d/1a7EL93YweYHlLBnK6qJWazNiHZ-_2lmh/view?usp=drive_link"
             }
         },
         "July 6, 2024": {
             "Enadu": {
-                "AP": "https://drive.google.com/file/d/1YN06MkJ5LrsX2cKk_3bs3y-sAdINv25B/view?usp=drive_link",
-                "TS": "https://drive.google.com/file/d/1Y0vToO8IM0T4DfNT2vBlKn2RJ0Znp1V3/view?usp=drive_link"
+                "AP": "https://drive.google.com/file/d/1VVtt4NglPHzOrE_0kHQnG3usDOmvb9y3/view?usp=drive_link",
+                "TS": "https://drive.google.com/file/d/1hGCFeQuw5P8eu5eF63VYZAz1xf6VOjYM/view?usp=drive_link"
             },
             "Sakshi": {
-                "AP": "https://drive.google.com/file/d/1YN06MkJ5LrsX2cKk_3bs3y-sAdINv25B/view?usp=drive_link",
-                "TS": "https://drive.google.com/file/d/1Y0vToO8IM0T4DfNT2vBlKn2RJ0Znp1V3/view?usp=drive_link"
+                "AP": "https://drive.google.com/file/d/1VVtt4NglPHzOrE_0kHQnG3usDOmvb9y3/view?usp=drive_link",
+                "TS": "https://drive.google.com/file/d/1hGCFeQuw5P8eu5eF63VYZAz1xf6VOjYM/view?usp=drive_link"
             }
         },
         "July 5, 2024": {
             "Enadu": {
-                "AP": "https://drive.google.com/file/d/1Yh4Xy7lMbnzZZwP9tFTuY1rOC9a0sPO_/view?usp=drive_link",
-                "TS": "https://drive.google.com/file/d/1YdjV2SxYIcECmNkl9nDVZ2PMUisrJIS7/view?usp=drive_link"
+                "AP": "https://drive.google.com/file/d/1nvWwWws5e27pDaK3FQOFAxVpucf17gD7/view?usp=drive_link",
+                "TS": "https://drive.google.com/file/d/1ZzLBu3nkl2-ncIXjxAJ7PBxjYbUbSSKx/view?usp=drive_link"
             },
             "Sakshi": {
-                "AP": "https://drive.google.com/file/d/1Yh4Xy7lMbnzZZwP9tFTuY1rOC9a0sPO_/view?usp=drive_link",
-                "TS": "https://drive.google.com/file/d/1YdjV2SxYIcECmNkl9nDVZ2PMUisrJIS7/view?usp=drive_link"
+                "AP": "https://drive.google.com/file/d/1nvWwWws5e27pDaK3FQOFAxVpucf17gD7/view?usp=drive_link",
+                "TS": "https://drive.google.com/file/d/1ZzLBu3nkl2-ncIXjxAJ7PBxjYbUbSSKx/view?usp=drive_link"
             }
         },
         "July 4, 2024": {
             "Enadu": {
-                "AP": "https://drive.google.com/file/d/1a5O97aUuBZzz5hQ3cE5eNcDWghbGB8ez/view?usp=drive_link",
-                "TS": "https://drive.google.com/file/d/1a7klC9b1eZ8gUoF3LD2R91Vt5tLBD0Dy/view?usp=drive_link"
+                "AP": "https://drive.google.com/file/d/1bEV0pNr9uuyikXnVWeXoV_Y0f2-20ftG/view?usp=drive_link",
+                "TS": "https://drive.google.com/file/d/1vlS7_0jWVHp9ROsWXyAesFPmx8cM5gZT/view?usp=drive_link"
             },
             "Sakshi": {
-                "AP": "https://drive.google.com/file/d/1a5O97aUuBZzz5hQ3cE5eNcDWghbGB8ez/view?usp=drive_link",
-                "TS": "https://drive.google.com/file/d/1a7klC9b1eZ8gUoF3LD2R91Vt5tLBD0Dy/view?usp=drive_link"
+                "AP": "https://drive.google.com/file/d/1bEV0pNr9uuyikXnVWeXoV_Y0f2-20ftG/view?usp=drive_link",
+                "TS": "https://drive.google.com/file/d/1vlS7_0jWVHp9ROsWXyAesFPmx8cM5gZT/view?usp=drive_link"
             }
         },
         "July 3, 2024": {
             "Enadu": {
-                "AP": "https://drive.google.com/file/d/1G6Y7QG6e1vA7FDc1x0EZz8W2u2H7TeZr/view?usp=drive_link",
-                "TS": "https://drive.google.com/file/d/1FGoEhGLJW4k3M4f4UC1u4MyiRFFm-XAl/view?usp=drive_link"
+                "AP": "https://drive.google.com/file/d/1YtdhRaMjaH7a2bnhNJWEKPOU3tK_d78Y/view?usp=drive_link",
+                "TS": "https://drive.google.com/file/d/1Xq5fbKTgMHb5DPJ8sFBMMcNK_0EpL8eH/view?usp=drive_link"
             },
             "Sakshi": {
-                "AP": "https://drive.google.com/file/d/1G6Y7QG6e1vA7FDc1x0EZz8W2u2H7TeZr/view?usp=drive_link",
-                "TS": "https://drive.google.com/file/d/1FGoEhGLJW4k3M4f4UC1u4MyiRFFm-XAl/view?usp=drive_link"
+                "AP": "https://drive.google.com/file/d/1YtdhRaMjaH7a2bnhNJWEKPOU3tK_d78Y/view?usp=drive_link",
+                "TS": "https://drive.google.com/file/d/1Xq5fbKTgMHb5DPJ8sFBMMcNK_0EpL8eH/view?usp=drive_link"
+            }
+        },
+        "July 2, 2024": {
+            "Enadu": {
+                "AP": "https://drive.google.com/file/d/1bFO4MTVBa3_4Gz9ffF8FOmle6NRKsxH6/view?usp=drive_link",
+                "TS": "https://drive.google.com/file/d/1UowduP0o0E2Zx5iPV7nG9PA9jjKrfyNS/view?usp=drive_link"
+            },
+            "Sakshi": {
+                "AP": "https://drive.google.com/file/d/1bFO4MTVBa3_4Gz9ffF8FOmle6NRKsxH6/view?usp=drive_link",
+                "TS": "https://drive.google.com/file/d/1UowduP0o0E2Zx5iPV7nG9PA9jjKrfyNS/view?usp=drive_link"
             }
         }
     }
-
-    # Display the selected link based on the company, state, and date selection
-    if selected_date in newspaper_links and selected_company in newspaper_links[selected_date] and selected_state in newspaper_links[selected_date][selected_company]:
-        selected_link = newspaper_links[selected_date][selected_company][selected_state]
-        st.markdown(f"### Link for {selected_company} in {selected_state} on {selected_date}:")
-        st.markdown(f"[Newspaper Link]({selected_link})")
-    else:
-        st.error("No link found for the selected date, company, and state.")
-
-if __name__ == '__main__':
-    main()
+}
+s
