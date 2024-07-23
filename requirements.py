@@ -36,7 +36,7 @@ def main():
 
 
     # Define dictionary with newspaper links
-    eenadu_links = {
+    Enadu_links = {
     "July 23, 2024": {
         "AP": "https://drive.google.com/file/d/1RPEq2cEtl-AkVh1_E5SIcRjosS9EL7X_/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1FGvM4xnhfZuLzPuKrKtORbiKEgRR1pC4/view?usp=drive_link",
