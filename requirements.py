@@ -1034,7 +1034,7 @@ def main():
 }"""
 
     # Dictionary to map company names to their respective link dictionaries
-    newspaper_links = {
+newspaper_links = {
         'Enadu': enadu_links,
         'Sakshi': sakshi_links,
         'Andhra Jyothi': andhra_jyothi_links,
