@@ -1042,17 +1042,17 @@ newspaper_links = {
     }
     
     # Get the link based on selected company, state, and date
-    company_links = newspaper_links.get(selected_company, {})
-    link = company_links.get(selected_date, {}).get(selected_state, None)
+company_links = newspaper_links.get(selected_company, {})
+link = company_links.get(selected_date, {}).get(selected_state, None)
 
-    st.subheader("Download Link : ")
+st.subheader("Download Link : ")
 # Debugging statements to check link generation
-    if link:
+if link:
         st.markdown(f"[Open {selected_company} Newspaper for {selected_state} on {selected_date}]({link})")
-    else:
+else:
         st.write("Link not available for the selected date, company, and state or the day you selected may be _*SUNDAY*_.")
 
-    st.write('<p style="line-height:1.5;"><br><br></p>', unsafe_allow_html=True)
+st.write('<p style="line-height:1.5;"><br><br></p>', unsafe_allow_html=True)
     
     # Debugging statements to check selected values
     st.subheader("Selected Data")
