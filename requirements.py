@@ -1,5 +1,5 @@
 import streamlit as st
-from newspaper_links import dates, enadu_links, sakshi_links, andhra_jyothi_links, vaartha_links, velugu_links
+from newspaper_links import dates, newspaper_links
 
 def main():
     st.title('Newspaper Downloader')
