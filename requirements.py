@@ -17,6 +17,10 @@ def main():
     # Determine if the selected company has multiple editions (states)
     has_multiple_editions = isinstance(next(iter(company_links.values())), dict)
 
+    if selected_company == 'Velugu':
+        has_multiple_editions = False
+
+    # Show state dropdown only if there are multiple editions
     if has_multiple_editions:
         states = ['AP', 'TS']
         selected_state = st.selectbox('Select State', states)
