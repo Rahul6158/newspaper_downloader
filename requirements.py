@@ -7,6 +7,7 @@ def main():
     companies = ['Enadu', 'Sakshi', 'Andhra Jyothi', 'Vaartha']
     states = ['AP', 'TS']
     dates = [
+    "July 24, 2024",  
     "July 23, 2024",
     "July 22, 2024",
     "July 20, 2024",
