@@ -1,11 +1,11 @@
 import streamlit as st
-from newspaper_links import dates, enadu_links, sakshi_links, andhra_jyothi_links, vaartha_links,velugu_links
+from newspaper_links import dates, enadu_links, sakshi_links, andhra_jyothi_links, vaartha_links, velugu_links
 
 def main():
     st.title('Newspaper Downloader')
 
     # Define newspaper companies and states
-    companies = ['Enadu', 'Sakshi', 'Andhra Jyothi', 'Vaartha','Velugu']
+    companies = ['Enadu', 'Sakshi', 'Andhra Jyothi', 'Vaartha', 'Velugu']
     states = ['AP', 'TS']
 
     st.write('<p style="line-height:1;"><br></p>', unsafe_allow_html=True)
@@ -20,20 +20,27 @@ def main():
         'Sakshi': sakshi_links,
         'Andhra Jyothi': andhra_jyothi_links,
         'Vaartha': vaartha_links,
-        'Velugu' : velugu_links
+        'Velugu': velugu_links
     }
 
     # Get the link dictionary for the selected company
     company_links = newspaper_links.get(selected_company, {})
 
     # Determine if the state dropdown is needed
-    if len(set(d.get(selected_date, {}).keys()) for d in company_links.values()) == 1:
-        # If all states have the same link for the selected date
-        selected_state = next(iter(company_links.get(selected_date, {}).keys()))
-    else:
-        # Otherwise, provide a state dropdown
+    state_dropdown_needed = False
+    if selected_date in company_links:
+        # Check if there are multiple states for the selected date
+        states_for_date = list(company_links[selected_date].keys())
+        if len(states_for_date) > 1:
+            state_dropdown_needed = True
+
+    # Display state dropdown if needed
+    if state_dropdown_needed:
         selected_state = st.selectbox('Select State', states)
-    
+    else:
+        # Default to the first state if there's only one state
+        selected_state = list(company_links.get(selected_date, {}).keys())[0]
+
     # Get the link based on selected company, state, and date
     link = company_links.get(selected_date, {}).get(selected_state, None)
 
