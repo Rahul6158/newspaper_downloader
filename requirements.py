@@ -5,29 +5,18 @@ def main():
     st.title('Newspaper Downloader')
 
     # Define newspaper companies
-    companies = ['Enadu', 'Sakshi', 'Andhra Jyothi', 'Vaartha', 'Velugu']
+    companies = list(newspaper_links.keys())
 
     # Create dropdowns for selecting company and date
     selected_company = st.selectbox('Select Newspaper Company', companies)
     selected_date = st.selectbox('Select Date', dates)
 
-    # Dictionary to map company names to their respective link dictionaries
-    newspaper_links = {
-        'Enadu': enadu_links,
-        'Sakshi': sakshi_links,
-        'Andhra Jyothi': andhra_jyothi_links,
-        'Vaartha': vaartha_links,
-        'Velugu': velugu_links
-    }
+    # Get links for the selected company
+    company_links = newspaper_links.get(selected_company, {})
 
     # Determine if the selected company has multiple editions (states)
-    company_links = newspaper_links.get(selected_company, {})
-    has_multiple_editions = any(isinstance(link, dict) for link in company_links.values())
-    
-    if selected_company == 'Velugu':
-        has_multiple_editions = False
+    has_multiple_editions = isinstance(next(iter(company_links.values())), dict)
 
-    # Show state dropdown only if there are multiple editions
     if has_multiple_editions:
         states = ['AP', 'TS']
         selected_state = st.selectbox('Select State', states)
