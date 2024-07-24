@@ -2,60 +2,22 @@
 
 # Define the dates
 dates = [
-    "July 24, 2024",  
-    "July 23, 2024",
-    "July 22, 2024",
-    "July 20, 2024",
-    "July 19, 2024",
-    "July 18, 2024",
-    "July 17, 2024",
-    "July 16, 2024",
-    "July 15, 2024",
-    "July 14, 2024",
-    "July 13, 2024",
-    "July 12, 2024",
-    "July 11, 2024",
-    "July 10, 2024",
-    "July 09, 2024",
-    "July 08, 2024",
-    "July 07, 2024",
-    "July 06, 2024",
-    "July 05, 2024",
-    "July 04, 2024",
-    "July 03, 2024",
-    "July 02, 2024",
-    "July 01, 2024",
-    "June 30, 2024",
-    "June 29, 2024",
-    "June 28, 2024",
-    "June 27, 2024",
-    "June 26, 2024",
-    "June 25, 2024",
-    "June 24, 2024",
-    "June 23, 2024",
-    "June 22, 2024",
-    "June 21, 2024",
-    "June 20, 2024",
-    "June 19, 2024",
-    "June 18, 2024",
-    "June 17, 2024",
-    "June 16, 2024",
-    "June 15, 2024",
-    "June 14, 2024",
-    "June 13, 2024",
-    "June 12, 2024",
-    "June 11, 2024",
-    "June 10, 2024",
-    "June 09, 2024",
-    "June 08, 2024",
-    "June 07, 2024",
-    "June 06, 2024",
-    "June 05, 2024",
-    "June 04, 2024"
+    "July 24, 2024", "July 23, 2024", "July 22, 2024", "July 20, 2024",
+    "July 19, 2024", "July 18, 2024", "July 17, 2024", "July 16, 2024",
+    "July 15, 2024", "July 14, 2024", "July 13, 2024", "July 12, 2024",
+    "July 11, 2024", "July 10, 2024", "July 09, 2024", "July 08, 2024",
+    "July 07, 2024", "July 06, 2024", "July 05, 2024", "July 04, 2024",
+    "July 03, 2024", "July 02, 2024", "July 01, 2024", "June 30, 2024",
+    "June 29, 2024", "June 28, 2024", "June 27, 2024", "June 26, 2024",
+    "June 25, 2024", "June 24, 2024", "June 23, 2024", "June 22, 2024",
+    "June 21, 2024", "June 20, 2024", "June 19, 2024", "June 18, 2024",
+    "June 17, 2024", "June 16, 2024", "June 15, 2024", "June 14, 2024",
+    "June 13, 2024", "June 12, 2024", "June 11, 2024", "June 10, 2024",
+    "June 09, 2024", "June 08, 2024", "June 07, 2024", "June 06, 2024",
+    "June 05, 2024", "June 04, 2024"
 ]
-
     # Define dictionary with newspaper links
-    enadu_links = {
+enadu_links = {
     "July 24, 2024": {
         "AP": "https://drive.google.com/file/d/126iB7bjmEIypSt2t4YSgK8VK51btwGxs/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1AeURgnafRGKTw-E8qg6SGtkqAksDJFDi/view?usp=drive_link",
@@ -258,7 +220,7 @@ dates = [
     },
 }
 
-    sakshi_links = {
+sakshi_links = {
     "July 24, 2024": {
         "AP": "https://drive.google.com/file/d/1ObRi9eB8GRV6yHwS-USKfFRVNg3jB2eZ/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1fF9JH4PfJ4PQ88vUcMz7SRN0YAZW2AUu/view?usp=drive_link",
@@ -457,7 +419,7 @@ dates = [
     },
 }
 
-    andhra_jyothi_links = {
+andhra_jyothi_links = {
     "July 24, 2024": {
         "AP": "https://drive.google.com/file/d/1ObRi9eB8GRV6yHwS-USKfFRVNg3jB2eZ/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1fF9JH4PfJ4PQ88vUcMz7SRN0YAZW2AUu/view?usp=drive_link",
@@ -656,7 +618,7 @@ dates = [
     },
 }
 
-    vaartha_links = {
+vaartha_links = {
     "July 24, 2024": {
         "AP": "https://drive.google.com/file/d/1T8aRt5a0w2-2AONvpl53fpBo6kiAT1oU/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1FQwsP4I1Ux4uePyVoJb3DM_AH0LlJxLc/view?usp=drive_link",
