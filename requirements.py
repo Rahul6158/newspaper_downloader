@@ -671,12 +671,195 @@ def main():
 }
 
     vaartha_links = {
-        "July 23, 2024": {
-            "AP": "https://drive.google.com/file/d/17o7wPKPr3reiUBJBKEiIAmPgAfHmk3uV/view?usp=drive_link",
-            "TS": "https://drive.google.com/file/d/1gOa45CMpouE6Zi-Mq7sM6S0cNUlEWJXk/view?usp=drive_link",
-        },
-        # Add more dates and links here if available
-    }
+    "July 24, 2024": {
+        "AP": "https://drive.google.com/file/d/1T8aRt5a0w2-2AONvpl53fpBo6kiAT1oU/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1FQwsP4I1Ux4uePyVoJb3DM_AH0LlJxLc/view?usp=drive_link",
+    },
+    "July 23, 2024": {
+        "AP": "https://drive.google.com/file/d/17o7wPKPr3reiUBJBKEiIAmPgAfHmk3uV/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1gOa45CMpouE6Zi-Mq7sM6S0cNUlEWJXk/view?usp=drive_link",
+    },
+    "July 22, 2024": {
+        "AP": "https://drive.google.com/file/d/17NvQIju3LH_UnyM7dI0qeoSQ31DZZ36j/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1cKm96-J3Pz-N3dztYE3eK3FhaLAKmIh4/view?usp=drive_link",
+    },
+    "July 20, 2024": {
+        "AP": "https://drive.google.com/file/d/1ExUMpiR4QzfwBSBeGw0JQevB0WhjwScC/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/12Qco62Ol312aPXrIEoYHwvtoSSzVtKsu/view?usp=drive_link",
+    },
+    "July 19, 2024": {
+        "AP": "https://drive.google.com/file/d/1lNZx13FzTBBkZF_t21nfDTO45ivySl5F/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1JXPoZPTUrFscoSBbRxUvFChbPZ4xiDTZ/view?usp=drive_link",
+    },
+    "July 18, 2024": {
+        "AP": "https://drive.google.com/file/d/13OA9KlmjcytBhu48MVO1JJTmIrbEcGNA/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1Y6Ea0lqGDFUe94PQbNxwpjMiWCuRXKXG/view?usp=drive_link",
+    },
+    "July 17, 2024": {
+        "AP": "https://drive.google.com/file/d/1iXc0_EzMBxZHWwv9uluv2u8ltEV6wTjI/view?usp=sharing",
+        "TS": "https://drive.google.com/file/d/14L_oRsvqqMTHtnTGJVDRmSjFOCuvATEK/view?usp=drive_link",
+    },
+    "July 16, 2024": {
+        "AP": "https://drive.google.com/file/d/1fT4cXD7DjWfRqEGSqqsKJxFWcztAh2Io/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/10akN9ZuG8kKvNKefr5DTM1GBfazP__2H/view?usp=drive_link",
+    },
+    "July 15, 2024": {
+        "AP": "https://drive.google.com/file/d/13aGDwqBejTww6sgbrdi7WUgcyj-IVVH-/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/10Qcf7GoXBfB0Ob_EWAYbjvr2To4K_OiG/view?usp=drive_link",
+    },
+    "July 14, 2024": {
+        "AP": "https://drive.google.com/file/d/1fcyPpPIgpi7tKWYLw4PuqtHSlbg9fXU-/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1JnMA6phWQlO0QCfTZ00E93YfWqvzBS0B/view?usp=drive_link",
+    },
+    "July 13, 2024": {
+        "AP": "https://drive.google.com/file/d/1fcyPpPIgpi7tKWYLw4PuqtHSlbg9fXU-/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1JnMA6phWQlO0QCfTZ00E93YfWqvzBS0B/view?usp=drive_link",
+    },
+    "July 12, 2024": {
+        "AP": "https://drive.google.com/file/d/1lIEw2N4a8FvLe7KrKbm7QbvppB_ry1Or/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1ESGmIXD8cD5BwH88_nL26LrrsDv5pYcC/view?usp=drive_link",
+    },
+    "July 11, 2024": {
+        "AP": "https://drive.google.com/file/d/1UjDBtyEL-8_P8hwaFuoLe0U5iYesJWh5/view?usp=sharing",
+        "TS": "https://drive.google.com/file/d/1w0JT_rNT-m8iQAopen2-N4Cxx03hikA0/view?usp=drive_link",
+    },
+    "July 10, 2024": {
+        "AP": "https://drive.google.com/file/d/14uh6v0eR8CTLxIH6QmGDPQi_mBAMwl_Y/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1rAJ_n_0VMaFchZTNF2lxpmM-xad8ENBc/view?usp=drive_link",
+    },
+    "July 09, 2024": {
+        "AP": "https://drive.google.com/file/d/1IJ9SKFUPEi5sUMSC1bX3fG3XVBgV2SS-/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/13nbakQN4Aqaz3sqpVoRxgQ1CZaNvnLmi/view?usp=drive_link",
+    },
+    "July 08, 2024": {
+        "AP": "https://drive.google.com/file/d/1haf1CDwN8SufC0nn8QXfbOCJ2BS8vtVx/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/18e92F23o46z974f436L7AgNvogvKZnLb/view?usp=drive_link",
+    },
+    "July 07, 2024": {
+        "AP": "https://drive.google.com/file/d/1qRxbsn-OC3g2ywUyzTDTXYvm8RS0yWuR/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1EW-RhnpSF21ZhV4WsihftRdXDd29PxnQ/view?usp=drive_link",
+    },
+    "July 06, 2024": {
+        "AP": "https://drive.google.com/file/d/1SgfAPtvsMuUle9O3HLG6YODsgiEbld5n/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1ewmIQ_Wy85Gp2M4KcpMUaBO0b6lXVgZS/view?usp=drive_link",
+    },
+    "July 04, 2024": {
+        "AP": "https://drive.google.com/file/d/1ayfch55yzzscmhnTyg-0A4EpzIZR4-Tv/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1dIp3N5RlpDkB9ffFgreEfIh48Gm4xBpB/view?usp=drive_link",
+    },
+    "July 03, 2024": {
+        "AP": "https://drive.google.com/file/d/1gPJL0tL7c5dAhQwZ9FMvanMpB8M7Eu67/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1s32DIA2k0iFz2qlz2mYLYzYeoyaVi_Ko/view?usp=drive_link",
+    },
+    "July 02, 2024": {
+        "AP": "https://drive.google.com/file/d/1knm6QznF_PTe05TTUzHfKu8RJeRTiu4K/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1-CyyBP1IkQerHJGdpPWW3yDUkEkHTtAP/view?usp=drive_link",
+    },
+    "July 01, 2024": {
+        "AP": "https://drive.google.com/file/d/11qAq7QB83Qi9t66BqGGCxzAxG0-72YYR/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1fHoL-c50kfvJj1OXgTssRhpRvGWmVj4u/view?usp=drive_link",
+    },
+    "June 29, 2024": {
+        "AP": "https://drive.google.com/file/d/1ySkftviBSuv430ieXREqWiIbXbJhZV9A/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1QHWJXZ-iEwEspl0C4xQ00yoocte14GrT/view?usp=drive_link",
+    },
+    "June 28, 2024": {
+        "AP": "https://drive.google.com/file/d/1j_8wRbQQFs7cxetf-8pShsMgwzdiUuSl/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1eZvKcdj5TCnYG4rizQFeQ9L94e86DOy-/view?usp=drive_link",
+    },
+    "June 27, 2024": {
+        "AP": "https://drive.google.com/file/d/1zG8GD5xFTJswcoP1hacHUixRNLRZtRvk/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1juCRmCg_SNsS0jceG_PyOsCGmSfFcDCY/view?usp=drive_link",
+    },
+    "June 26, 2024": {
+        "AP ": "https://drive.google.com/file/d/1dvabTCXwmbOKK_72Rs4-o8gN1smBTh4C/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1bPQBwC2fjqJtoI9qqCkYgt6DLkCiqapa/view?usp=drive_link",
+    },
+    "June 25, 2024": {
+        "AP": "https://drive.google.com/file/d/1OvgwjhhJNIZzOQvUAsGruXLGNrQJugvD/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1xMGegku1yjjMmrMsirndHrC_FVRytUs0/view?usp=drive_link",
+    },
+    "June 24, 2024": {
+        "AP": "https://drive.google.com/file/d/1AXShMNxHgVq5QM9pR_DQVnRyzoxaBrM1/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1Df9dIi7skVVkv72RWyyscEJfKUZo4CIe/view?usp=drive_link",
+    },
+    "June 23, 2024": {
+        "AP": "https://drive.google.com/file/d/1MM6JVGidveDUkqHsV_7r-igyNAviwpo5/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1Wwv51yqs_A-SuXTfnBVFAukHr8Ckoe2R/view?usp=drive_link",
+    },
+    "June 21, 2024": {
+        "AP": "https://drive.google.com/file/d/1Vi-y3TG5WKhrMU1q9C4lFB1ZWU-8oL7X/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1Q3PB7CImn3UbzyWTaJN2pc1LkK9a-kVy/view?usp=drive_link",
+    },
+    "June 20, 2024": {
+        "AP": "https://drive.google.com/file/d/1rGSSVIAtRZ_iiHj4HjBwqz18tOTszIvI/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/11Bvk7uZNC9c83KbGZQcOzwDnUF8zBYxL/view?usp=drive_link",
+    },
+    "June 19, 2024": {
+        "AP": "https://drive.google.com/file/d/1lAiZfIDdwoPLySwVABHFKmEpi2-chngd/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1vH1oP-QaHyOXfhoMlU61JPeHr0NZompN/view?usp=drive_link",
+    },
+    "June 18, 2024": {
+        "AP": "https://drive.google.com/file/d/1XTic2bgZkLmz2uuD_F1RucnN81VO1yBs/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1mpvkBVQAoTyk-h8z5N8L2IA89JE3kbCZ/view?usp=drive_link",
+    },
+    "June 17, 2024": {
+        "AP": "https://drive.google.com/file/d/1mCNalzzmgtYUPJljBMIipketKGl_5yE2/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1iyB7RFpTItzzebioibmouGN3Lr5sD2xO/view?usp=drive_link",
+    },
+    "June 16, 2024": {
+        "AP": "https://drive.google.com/file/d/1v1-1aszqohqEb2uTDGj5tX7H__WDfhqB/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1Wc0jlWa1-uwemUxor6wvGEhEG3qylxh-/view?usp=drive_link",
+    },
+    "June 15, 2024": {
+        "AP": "https://drive.google.com/file/d/1f_-IuJTFAcyZewPn1KLnAIVakTjZtGxr/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1ATwra7MNuzBax3kfSXP7bx2G6n-WXEK3/view?usp=drive_link",
+    },
+    "June 14, 2024": {
+        "AP": "https://drive.google.com/file/d/16Yh-W4DBnrDalJ8tEmNh9CPDV6GdmWKm/view?usp=sharing",
+        "TS": "https://drive.google.com/file/d/1PvuH7KMthT5Qn1KoAQU-a7fKxyOUH60l/view?usp=drive_link",
+    },
+    "June 13, 2024": {
+        "AP": "https://drive.google.com/file/d/1YM99AmLRoJ49HFVDxTumrlXEjmsot2ex/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1hFt87XWZ1DGIoyQJCZiCljaM6_gjQmEV/view?usp=drive_link",
+    },
+    "June 12, 2024": {
+        "AP": "https://drive.google.com/file/d/1uvA9wy8vIFXV-YcYRCb4olyBRv98eVxB/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1jWFbUc_NmtCIXqGLuJn6kGR2jIqkqvcx/view?usp=drive_link",
+    },
+    "June 11, 2024": {
+        "AP": "https://drive.google.com/file/d/1QPpMNus_AK-lzaJqXDOqlxZmxsaKJw_x/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1YWI47rn263VT4m0x0cev8Im_2mrnctXd/view?usp=drive_link",
+    },
+    "June 10, 2024": {
+        "AP": "https://drive.google.com/file/d/1IIu_rR5gJAdwvjdrBbbc3P3KaerYeBJ3/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/10pmJAr2X4qput9NCivpK0Lf8nLg9Z03c/view?usp=drive_link",
+    },
+    "June 09, 2024": {
+        "AP": "https://drive.google.com/file/d/1TXWRBcFBqRO8wpKFnxnZ3gwN5Ebgs9JT/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/17_DHxM2rnMq7gf2D8mbDMtpZ_PJgXzv_/view?usp=drive_link",
+    },
+    "June 08, 2024": {
+        "AP": "https://drive.google.com/file/d/1y2d49q3-6leKq7OP6vJv1pmgr1A2Tow1/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1nMS9Kp4sb2ILaLV9YlBPWF_HMUsln_7S/view?usp=drive_link",
+    },
+    "June 07, 2024": {
+        "AP": "https://drive.google.com/file/d/1ET4Uueo8ARIkbym0BeeeR32UospjXAJl/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1I36NL_2MGgqHoW9K73Tmp3EsiFTS2Z2p/view?usp=drive_link",
+    },
+    "June 06, 2024": {
+        "AP ": "https://drive.google.com/file/d/15UZEP60lwSaXIaMgnfCv6s6spxRZyb6w/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1QuUuBzTWy72xqzlQ9aZpHMy9alkVV32t/view?usp=drive_link",
+    },
+    "June 05, 2024": {
+        "AP": "https://drive.google.com/file/d/1ACKAOFUdFD2biNKUyp-F9aJsck0K7OKx/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1TsXgv6ckGpcsvLO-Tu_XvU7lyNZtwFXi/view?usp=drive_link",
+    },
+    "June 04, 2024": {
+        "AP": "https://drive.google.com/file/d/1mwWQkRmUEG9mqNBqzkqPQnf_5kE3phQ6/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1duri664X_vIygq6t8UQ-P7D3k9CeCJJu/view?usp=drive_link",
+    },
+}
 
     # Dictionary to map company names to their respective link dictionaries
     newspaper_links = {
