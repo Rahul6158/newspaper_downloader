@@ -16,7 +16,7 @@ def main():
         'Enadu': enadu_links,
         'Sakshi': sakshi_links,
         'Andhra Jyothi': andhra_jyothi_links,
-        'Vaartha': vaartha_links
+        'Vaartha': vaartha_links,
         'Velugu' : velugu_links
     }
 
