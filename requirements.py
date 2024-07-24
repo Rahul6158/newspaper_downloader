@@ -7,6 +7,7 @@ def main():
     companies = ['Enadu', 'Sakshi', 'Andhra Jyothi', 'Vaartha']
     states = ['AP', 'TS']
     dates = [
+    "July 24, 2024", 
     "July 23, 2024",
     "July 22, 2024",
     "July 20, 2024",
@@ -66,6 +67,10 @@ def main():
     
     # Define dictionary with newspaper links
     enadu_links = {
+     "July 24, 2024": {
+        "AP": "https://drive.google.com/file/d/126iB7bjmEIypSt2t4YSgK8VK51btwGxs/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1AeURgnafRGKTw-E8qg6SGtkqAksDJFDi/view?usp=drive_link",
+     },  
     "July 23, 2024": {
         "AP": "https://drive.google.com/file/d/1RPEq2cEtl-AkVh1_E5SIcRjosS9EL7X_/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1FGvM4xnhfZuLzPuKrKtORbiKEgRR1pC4/view?usp=drive_link",
@@ -265,6 +270,10 @@ def main():
 }
 
     sakshi_links = {
+    "July 24, 2024": {
+        "AP": "https://drive.google.com/file/d/1ObRi9eB8GRV6yHwS-USKfFRVNg3jB2eZ/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1fF9JH4PfJ4PQ88vUcMz7SRN0YAZW2AUu/view?usp=drive_link",
+    },
     "July 23, 2024": {
         "AP": "https://drive.google.com/file/d/1Jc9TSzo3eISjwaSe28MPDgMLToNqBBSW/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1QUneyxyYMN9pgY4mAL41Zc3jNekCD49Y/view?usp=drive_link",
