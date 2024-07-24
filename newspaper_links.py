@@ -219,7 +219,7 @@ newspaper_links = {
         "AP": "https://drive.google.com/file/d/1uAZN-n89GgI6u95DZ8txfUpupbKWSX-m/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/16Ip-jiiLo7XqGqx55L1aZEas143x10ED/view?usp=drive_link",
     },
- },
+   },
 
  sakshi_links = {
     "July 24, 2024": {
@@ -418,7 +418,7 @@ newspaper_links = {
         "AP": "https://drive.google.com/file/d/1uZGwjhzZq_lrzqvQPh8REC0fql-423vQ/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1a-xauI2orA_bI2VLJYDAXw3X01XArK-9/view?usp=drive_link",
     },
- },
+  },
 
  andhra_jyothi_links = {
     "July 24, 2024": {
@@ -617,7 +617,7 @@ newspaper_links = {
         "AP": "https://drive.google.com/file/d/1uZGwjhzZq_lrzqvQPh8REC0fql-423vQ/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1a-xauI2orA_bI2VLJYDAXw3X01XArK-9/view?usp=drive_link",
     },
- },
+  },
 
  vaartha_links = {
     "July 24, 2024": {
@@ -808,7 +808,7 @@ newspaper_links = {
         "AP": "https://drive.google.com/file/d/1mwWQkRmUEG9mqNBqzkqPQnf_5kE3phQ6/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1duri664X_vIygq6t8UQ-P7D3k9CeCJJu/view?usp=drive_link",
     },
- },
+  },
 
  velugu_links = {
     "July 24, 2024": {
@@ -955,5 +955,5 @@ newspaper_links = {
     "June 04, 2024": {
         "Download Now": "https://drive.google.com/file/d/1SfydfePf9Hhx8Kb2-ZXGblZpozgVHqu5/view?usp=drive_link",
     },
- }
+  }
 }
