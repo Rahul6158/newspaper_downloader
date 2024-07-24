@@ -1,7 +1,7 @@
 import streamlit as st
 
 def main():
-    st.title('Newspaper Links')
+    st.title('Newspaper Downloader')
 
     # Define newspaper companies, states, and dates
     companies = ['Enadu', 'Sakshi', 'Andhra Jyothi', 'Vaartha']
@@ -871,13 +871,15 @@ def main():
     company_links = newspaper_links.get(selected_company, {})
     link = company_links.get(selected_date, {}).get(selected_state, None)
 
+
+    st.subheader("Download link : ")
     if link:
         st.markdown(f"[Open {selected_company} Newspaper for {selected_state} on {selected_date}]({link})")
     else:
         st.write("Link not available for the selected date, company, and state.")
  
     st.write('<p style="line-height:1;"><br><br></p>', unsafe_allow_html=True)
-        # Debugging statements to check selected values
+    # Debugging statements to check selected values
     st.write(f"Selected Company: {selected_company}")
     st.write(f"Selected State: {selected_state}")
     st.write(f"Selected Date: {selected_date}")
