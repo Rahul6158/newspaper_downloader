@@ -4,7 +4,7 @@ def main():
     st.title('Download Desired Newspapers')
 
     # Define newspaper companies, states, and dates
-    companies = ['Enadu', 'Sakshi', 'Andhra Jyothi', 'Vaartha','Velugu']
+    companies = ['Enadu', 'Sakshi', 'Andhra Jyothi', 'Vaartha']
     states = ['AP', 'TS']
     dates = [
     "July 24, 2024", 
@@ -857,7 +857,7 @@ def main():
         "TS": "https://drive.google.com/file/d/1duri664X_vIygq6t8UQ-P7D3k9CeCJJu/view?usp=drive_link",
     },
 }
-    velugu_links = {
+""" velugu_links = {
     "July 24, 2024": {
         "Download Now": "https://drive.google.com/file/d/1Wgw6jEOBIkXRfQMCMe-M419v34oAsFl2/view?usp=drive_link",
     },
@@ -1031,7 +1031,7 @@ def main():
     "May 25, 2024": {
         "Download Now": "https://drive.google.com/file/d/1oavW_47VJhf_fpR_CFimypiFOgm7_2q9/view?usp=drive_link",
     },
-}
+}"""
 
     # Dictionary to map company names to their respective link dictionaries
     newspaper_links = {
@@ -1039,7 +1039,6 @@ def main():
         'Sakshi': sakshi_links,
         'Andhra Jyothi': andhra_jyothi_links,
         'Vaartha': vaartha_links
-        'Velugu': velugu_links
     }
     
     # Get the link based on selected company, state, and date
