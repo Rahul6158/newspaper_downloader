@@ -58,7 +58,8 @@ def main():
     "June 05, 2024",
     "June 04, 2024"
 ]
-
+    
+    st.write('<p style="line-height:1;"><br></p>', unsafe_allow_html=True)
     # Create dropdowns for selecting company, state, and date
     selected_company = st.selectbox('Select Newspaper Company', companies)
     selected_state = st.selectbox('Select State', states)
