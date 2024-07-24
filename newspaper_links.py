@@ -808,3 +808,150 @@ vaartha_links = {
         "TS": "https://drive.google.com/file/d/1duri664X_vIygq6t8UQ-P7D3k9CeCJJu/view?usp=drive_link",
     },
 }
+
+velugu_links = {
+    "July 24, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1Wgw6jEOBIkXRfQMCMe-M419v34oAsFl2/view?usp=drive_link",
+    },
+    "July 23, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1MkmgHrnKy6I-ODD-ffDYSD-g4iHbOEL9/view?usp=drive_link",
+    },
+    "July 22, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1iWdubCRaUzr9fT8iApVRuH10WPplVB26/view?usp=drive_link",
+    },
+    "July 20, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1ejjif2zZJchE6GTD_RGy5v2Cf9f_J5lB/view?usp=drive_link",
+    },
+    "July 19, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1bVCCiF8tKn05-5n2JZ61whfMwqbkVnSY/view?usp=drive_link",
+    },
+    "July 18, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1HrvOa5Q5tS1WZdut9VxfRZQ7A2ZJFVbZ/view?usp=drive_link",
+    },
+    "July 17, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1cRfmnkJcCe6fsBAe173cCaX1kkbQiiWT/view?usp=drive_link",
+    },
+    "July 16, 2024": {
+        "Download Now": "https://drive.google.com/file/d/13BzM4vobhRRq9Qk7k_3Aa64t_tx2Z7P4/view?usp=drive_link",
+    },
+    "July 15, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1KpoxBpYD7M8IRRXRl87mD6DBi-r6St70/view?usp=drive_link",
+    },
+    "July 14, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1h9PYgUYqkw2fsabhWdinqbYffy2o3rrq/view?usp=drive_link",
+    },
+    "July 13, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1fZ9s1YiBKDQSCeh_SVB5jxFizbHH9jaG/view?usp=drive_link",
+    },
+    "July 11, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1OKB8LgMkdP5HERgnDevujj0nk01rj1ZW/view?usp=drive_link",
+    },
+    "July 10, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1WDNi89s9ifoeWj2sU2sn_X_b1l9luckm/view?usp=drive_link",
+    },
+    "July 09, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1hAFsya3_YV_ecRWPy0CzA_16QItLNXOK/view?usp=drive_link",
+    },
+    "July 08, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1cMrxLcg8Zwv9PkIwC5F98ZmHM2qJgk8B/view?usp=drive_link",
+    },
+    "July 07, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1fopjuV3R_GHmXVohvl5Yr79GNV5xia-G/view?usp=drive_link",
+    },
+    "July 06, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1OecADJkGTOf_egspx914PfJBycyhHDIA/view?usp=drive_link",
+    },
+    "July 04, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1NEbQWD_CfJMX-Y51yA02EyqWEkcesSaR/view?usp=drive_link",
+    },
+    "July 03, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1ZdUwA13p5jeDz6Y_7q4XlgDxNxUXrkvC/view?usp=drive_link",
+    },
+    "July 02, 2024": {
+        "Download Now": "https://drive.google.com/file/d/14SqK1zzyCgOXYCvh5fIzy79lL3ZLaebI/view?usp=drive_link",
+    },
+    "July 01, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1bLUm03124jD4qA-BqrEeHEpOpV6XfPcT/view?usp=drive_link",
+    },
+    "June 30, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1KZ36T969kIxSBt8i_o3K7ecFI14fQ2lj/view?usp=sharing",
+    },
+    "June 29, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1Kpad_ZpfJqx0-7P-XVD5sGo95nXh7pha/view?usp=drive_link",
+    },
+    "June 28, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1xu0oMG3Jw3IRiSHqUNPGHKtbt0PCMr3e/view?usp=drive_link",
+    },
+    "June 27, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1rnPpiNgcRe2YbU5935OU9zi7-oBNEAEA/view?usp=drive_link",
+    },
+    "June 26, 2024": {
+        "Download Now": "https://drive.google.com/file/d/11upXEd2dEDwC3vTUPRjQ6gudMQX3wFWb/view?usp=drive_link",
+    },
+    "June 25, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1QPxYHg40fpTPS0JWTxVwLCNjoPxXr1Bv/view?usp=drive_link",
+    },
+    "June 24, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1qNnwPSrsP79cFd_Dr54XTgoUg7JdzXTK/view?usp=drive_link",
+    },
+    "June 23, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1e7wGNR6OEz6CKRo8sp6-ffcdqPcbD_RZ/view?usp=drive_link",
+    },
+    "June 22, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1Wdr2Spyvv7nMFOrljDdzuOER7x-DJYP9/view?usp=drive_link",
+    },
+    "June 21, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1_RiyCLepcwljCGgf1pViaSOT2PZyIVTT/view?usp=drive_link",
+    },
+    "June 20, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1SKWkd_p6x389HflTiRTYtSxCE-TPipDm/view?usp=drive_link",
+    },
+    "June 19, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1hovxydGE-sspTZoRmEESGOxPLzoz9Fo8/view?usp=drive_link",
+    },
+    "June 18, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1QYbGatCe6DB3ul-UQHkQfnHHxR8DvsL2/view?usp=drive_link",
+    },
+    "June 17, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1PQvorCsoorYAK6_CgzTUONIibrhm8s5A/view?usp=drive_link",
+    },
+    "June 16, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1pV7IXt8gDtRBnd0yHPYzXwnt2caI8M4b/view?usp=drive_link",
+    },
+    "June 15, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1ria25_8Tm9Rpi6zGdOywnVvYquF6kuIM/view?usp=drive_link",
+    },
+    "June 14, 2024": {
+        "Download Now": "https://drive.google.com/file/d/16gTLvrQHfyWMdNPvBoi0ANW06bnaKpfk/view?usp=drive_link",
+    },
+    "June 13, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1iM64K-fdUghVYkWImybDU8957b21NgVH/view?usp=drive_link",
+    },
+    "June 12, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1IPIC_25UolqxzfzSMcQ3aOg5aRRnnzde/view?usp=drive_link",
+    },
+    "June 11, 2024": {
+        "Download Now": "https://drive.google.com/file/d/12d4AkTE6DgKnX6_BIffOnY0RmTrfYVqY/view?usp=drive_link",
+    },
+    "June 10, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1uANKvwO2xm6qjWTLNFXfCgdAe94rQ-zw/view?usp=drive_link",
+    },
+    "June 09, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1ja926D582Q8rdq4uECPa91dxKZH0uQLY/view?usp=drive_link",
+    },
+    "June 08, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1AKHyTomv5gjBdgOGUuRCaakR0bF_g_r0/view?usp=drive_link",
+    },
+    "June 07, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1nJNrMCWosC8f4SE4cPlcUtgeR6bWHp4o/view?usp=drive_link",
+    },
+    "June 06, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1Hge9BRHC9BA20R__XS3Vr19EEoVkfs54/view?usp=drive_link",
+    },
+    "June 05, 2024": {
+        "Download Now": "https://drive.google.com/file/d/15uOhqOqERVr7RDotBYbxOkZRlBlmVWhK/view?usp=drive_link",
+    },
+    "June 04, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1SfydfePf9Hhx8Kb2-ZXGblZpozgVHqu5/view?usp=drive_link",
+    },
+}
