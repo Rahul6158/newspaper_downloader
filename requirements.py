@@ -1,22 +1,29 @@
 import streamlit as st
-from newspaper_links import dates, newspaper_links
+from newspaper_links import dates, enadu_links, sakshi_links, andhra_jyothi_links, vaartha_links, velugu_links
 
 def main():
     st.title('Newspaper Downloader')
 
     # Define newspaper companies
-    companies = list(newspaper_links.keys())
+    companies = ['Enadu', 'Sakshi', 'Andhra Jyothi', 'Vaartha', 'Velugu']
 
     # Create dropdowns for selecting company and date
     selected_company = st.selectbox('Select Newspaper Company', companies)
     selected_date = st.selectbox('Select Date', dates)
 
-    # Get links for the selected company
-    company_links = newspaper_links.get(selected_company, {})
+    # Dictionary to map company names to their respective link dictionaries
+    newspaper_links = {
+        'Enadu': enadu_links,
+        'Sakshi': sakshi_links,
+        'Andhra Jyothi': andhra_jyothi_links,
+        'Vaartha': vaartha_links,
+        'Velugu': velugu_links
+    }
 
     # Determine if the selected company has multiple editions (states)
-    has_multiple_editions = isinstance(next(iter(company_links.values())), dict)
-
+    company_links = newspaper_links.get(selected_company, {})
+    has_multiple_editions = any(isinstance(link, dict) for link in company_links.values())
+    
     if selected_company == 'Velugu':
         has_multiple_editions = False
 
