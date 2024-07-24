@@ -879,6 +879,7 @@ def main():
         st.write("Link not available for the selected date, company, and state.")
  
     st.write('<p style="line-height:1;"><br><br></p>', unsafe_allow_html=True)
+    st.subheader("Selected Data : ")
     # Debugging statements to check selected values
     st.write(f"Selected Company: {selected_company}")
     st.write(f"Selected State: {selected_state}")
