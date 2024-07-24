@@ -17,13 +17,17 @@ def main():
         'Sakshi': sakshi_links,
         'Andhra Jyothi': andhra_jyothi_links,
         'Vaartha': vaartha_links,
-        'Velugu' : velugu_links
+        'Velugu': velugu_links
     }
 
     # Determine if the selected company has multiple editions (states)
     company_links = newspaper_links.get(selected_company, {})
     has_multiple_editions = any(isinstance(link, dict) for link in company_links.values())
+    
+    if selected_company == 'Velugu':
+        has_multiple_editions = False
 
+    # Show state dropdown only if there are multiple editions
     if has_multiple_editions:
         states = ['AP', 'TS']
         selected_state = st.selectbox('Select State', states)
@@ -34,7 +38,7 @@ def main():
     if has_multiple_editions:
         link = company_links.get(selected_date, {}).get(selected_state, None)
     else:
-        link = company_links.get(selected_date, None)
+        link = company_links.get(selected_date, {}).get("Download Now", None)
 
     st.subheader("Download link : ")
     if link:
