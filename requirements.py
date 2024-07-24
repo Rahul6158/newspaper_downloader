@@ -4,7 +4,7 @@ def main():
     st.title('Download Desired Newspapers')
 
     # Define newspaper companies, states, and dates
-    companies = ['Enadu', 'Sakshi', 'Andhra Jyothi', 'Vaartha']
+    companies = ['Enadu', 'Sakshi', 'Andhra Jyothi', 'Vaartha','Velugu']
     states = ['AP', 'TS']
     dates = [
     "July 24, 2024", 
