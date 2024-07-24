@@ -5,7 +5,7 @@ def main():
     st.title('Newspaper Downloader')
 
     # Define newspaper companies
-    companies = ['Enadu', 'Sakshi', 'Andhra Jyothi', 'Vaartha']
+    companies = ['Enadu', 'Sakshi', 'Andhra Jyothi', 'Vaartha', 'Velugu']
 
     # Create dropdowns for selecting company and date
     selected_company = st.selectbox('Select Newspaper Company', companies)
@@ -17,6 +17,7 @@ def main():
         'Sakshi': sakshi_links,
         'Andhra Jyothi': andhra_jyothi_links,
         'Vaartha': vaartha_links
+        'Velugu' : velugu_links
     }
 
     # Determine if the selected company has multiple editions (states)
