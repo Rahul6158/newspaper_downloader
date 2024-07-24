@@ -469,6 +469,10 @@ def main():
 }
 
     andhra_jyothi_links = {
+    "July 24, 2024": {
+        "AP": "https://drive.google.com/file/d/1864MW_bpySUz7RswmL-y585iA4BtDmus/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1TjcJfqzKV9wHDw23K_VLh-ahIp2p7J-c/view?usp=drive_link",
+    },
     "July 23, 2024": {
         "AP": "https://drive.google.com/file/d/1QKbSX-ZT0YbvFN7pY6b3jfLrV3AJuAJQ/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/12bb1gcn8pHrruV7EOjv3E6XlIgAVtu4w/view?usp=drive_link",
@@ -664,6 +668,10 @@ def main():
 }
 
     vaartha_links = {
+    "July 24, 2024": {
+        "AP": "https://drive.google.com/file/d/1T8aRt5a0w2-2AONvpl53fpBo6kiAT1oU/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1FQwsP4I1Ux4uePyVoJb3DM_AH0LlJxLc/view?usp=drive_link",
+    },
     "July 23, 2024": {
         "AP": "https://drive.google.com/file/d/17o7wPKPr3reiUBJBKEiIAmPgAfHmk3uV/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1gOa45CMpouE6Zi-Mq7sM6S0cNUlEWJXk/view?usp=drive_link",
