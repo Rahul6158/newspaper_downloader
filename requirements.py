@@ -1,5 +1,5 @@
 import streamlit as st
-from newspaper_links import dates, enadu_links
+from newspaper_links import dates, enadu_links, sakshi_links, andhra_jyothi_links, vaartha_links
 
 def main():
     st.title('Newspaper Downloader')
@@ -13,11 +13,6 @@ def main():
     selected_company = st.selectbox('Select Newspaper Company', companies)
     selected_state = st.selectbox('Select State', states)
     selected_date = st.selectbox('Select Date', dates)
-
-    # Define dictionary with newspaper links (sample)
-    sakshi_links = {}
-    andhra_jyothi_links = {}
-    vaartha_links = {}
 
     # Dictionary to map company names to their respective link dictionaries
     newspaper_links = {
