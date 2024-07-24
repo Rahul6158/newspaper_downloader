@@ -17,7 +17,8 @@ dates = [
     "June 05, 2024", "June 04, 2024"
 ]
     # Define dictionary with newspaper links
-enadu_links = {
+newspaper_links = {
+ enadu_links = {
     "July 24, 2024": {
         "AP": "https://drive.google.com/file/d/126iB7bjmEIypSt2t4YSgK8VK51btwGxs/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1AeURgnafRGKTw-E8qg6SGtkqAksDJFDi/view?usp=drive_link",
@@ -218,9 +219,9 @@ enadu_links = {
         "AP": "https://drive.google.com/file/d/1uAZN-n89GgI6u95DZ8txfUpupbKWSX-m/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/16Ip-jiiLo7XqGqx55L1aZEas143x10ED/view?usp=drive_link",
     },
-}
+ }
 
-sakshi_links = {
+ sakshi_links = {
     "July 24, 2024": {
         "AP": "https://drive.google.com/file/d/1ObRi9eB8GRV6yHwS-USKfFRVNg3jB2eZ/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1fF9JH4PfJ4PQ88vUcMz7SRN0YAZW2AUu/view?usp=drive_link",
@@ -417,9 +418,9 @@ sakshi_links = {
         "AP": "https://drive.google.com/file/d/1uZGwjhzZq_lrzqvQPh8REC0fql-423vQ/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1a-xauI2orA_bI2VLJYDAXw3X01XArK-9/view?usp=drive_link",
     },
-}
+ }
 
-andhra_jyothi_links = {
+ andhra_jyothi_links = {
     "July 24, 2024": {
         "AP": "https://drive.google.com/file/d/1ObRi9eB8GRV6yHwS-USKfFRVNg3jB2eZ/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1fF9JH4PfJ4PQ88vUcMz7SRN0YAZW2AUu/view?usp=drive_link",
@@ -616,9 +617,9 @@ andhra_jyothi_links = {
         "AP": "https://drive.google.com/file/d/1uZGwjhzZq_lrzqvQPh8REC0fql-423vQ/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1a-xauI2orA_bI2VLJYDAXw3X01XArK-9/view?usp=drive_link",
     },
-}
+ }
 
-vaartha_links = {
+ vaartha_links = {
     "July 24, 2024": {
         "AP": "https://drive.google.com/file/d/1T8aRt5a0w2-2AONvpl53fpBo6kiAT1oU/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1FQwsP4I1Ux4uePyVoJb3DM_AH0LlJxLc/view?usp=drive_link",
@@ -807,9 +808,9 @@ vaartha_links = {
         "AP": "https://drive.google.com/file/d/1mwWQkRmUEG9mqNBqzkqPQnf_5kE3phQ6/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1duri664X_vIygq6t8UQ-P7D3k9CeCJJu/view?usp=drive_link",
     },
-}
+ }
 
-velugu_links = {
+ velugu_links = {
     "July 24, 2024": {
         "Download Now": "https://drive.google.com/file/d/1Wgw6jEOBIkXRfQMCMe-M419v34oAsFl2/view?usp=drive_link",
     },
@@ -954,4 +955,5 @@ velugu_links = {
     "June 04, 2024": {
         "Download Now": "https://drive.google.com/file/d/1SfydfePf9Hhx8Kb2-ZXGblZpozgVHqu5/view?usp=drive_link",
     },
+ }
 }
