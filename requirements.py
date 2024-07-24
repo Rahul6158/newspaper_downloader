@@ -1,5 +1,5 @@
 import streamlit as st
-from newspaper_links import dates, enadu_links, sakshi_links, andhra_jyothi_links, vaartha_links
+from newspaper_links import dates, enadu_links, sakshi_links, andhra_jyothi_links, vaartha_links,velugu_links
 
 def main():
     st.title('Newspaper Downloader')
@@ -17,7 +17,7 @@ def main():
     # Dictionary to map company names to their respective link dictionaries
     newspaper_links = {
         'Enadu': enadu_links,
-        'Sakshi': sakshi_links,
+        'Sakshi': velugu_linkssakshi_links,
         'Andhra Jyothi': andhra_jyothi_links,
         'Vaartha': vaartha_links,
         'Velugu' : velugu_links
