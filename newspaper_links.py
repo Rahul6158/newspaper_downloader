@@ -633,6 +633,9 @@ andhra_jyothi_links = {
 }
 
 velugu_links = {
+    "July 25, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1Cg9hf-vCJWa-VDOF3su-SgyQVzgUR50L/view?usp=drive_link",
+    },
     "July 24, 2024": {
         "Download Now": "https://drive.google.com/file/d/1Wgw6jEOBIkXRfQMCMe-M419v34oAsFl2/view?usp=drive_link",
     },
