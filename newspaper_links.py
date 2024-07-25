@@ -227,6 +227,10 @@ enadu_links = {
 }
 
 sakshi_links = {
+    "July 25, 2024": {
+        "AP": "https://drive.google.com/file/d/1M-K4ijnRzpsCkJ_aegFhoCORiB3ZreSi/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1fY9TWUSxQUh7B8J4SLPdBtGT8ZDo010B/view?usp=drive_link",
+    },
     "July 24, 2024": {
         "AP": "https://drive.google.com/file/d/1ObRi9eB8GRV6yHwS-USKfFRVNg3jB2eZ/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1fF9JH4PfJ4PQ88vUcMz7SRN0YAZW2AUu/view?usp=drive_link",
