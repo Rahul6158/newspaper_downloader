@@ -231,6 +231,9 @@ enadu_links = {
 }
 
 sakshi_links = {
+    "July 26, 2024": {
+        "AP": "https://drive.google.com/file/d/1TjorT5fjR4zGuCLQQfeVSN6E5xeqD4j-/view",
+        "TS": "https://drive.google.com/file/d/1Z2mI0Nl8tMwTR5oBgOj-jNIEZpYY06En/view",
     },
     "July 25, 2024": {
         "AP": "https://drive.google.com/file/d/1M-K4ijnRzpsCkJ_aegFhoCORiB3ZreSi/view?usp=drive_link",
