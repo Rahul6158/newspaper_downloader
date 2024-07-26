@@ -2,7 +2,7 @@
 
 # Define the dates
 dates = [
-    "July 25, 2024","July 26, 2024",
+    "July 26, 2024","July 25, 2024",
     "July 24, 2024", "July 23, 2024", "July 22, 2024", "July 20, 2024",
     "July 19, 2024", "July 18, 2024", "July 17, 2024", "July 16, 2024",
     "July 15, 2024", "July 14, 2024", "July 13, 2024", "July 12, 2024",
@@ -20,9 +20,6 @@ dates = [
     # Define dictionary with newspaper links
 
 enadu_links = {
-    "July 26, 2024": {
-        "AP": "https://ouo.io/0vQcZuo",
-        "TS": "https://ouo.io/qF7qKUA",
     },     
     "July 25, 2024": {
         "AP": "https://drive.google.com/file/d/1oAdcwkG6AZ0fInOnJu1EiEzhfHVzLbk2/view?usp=drive_link",
@@ -231,9 +228,6 @@ enadu_links = {
 }
 
 sakshi_links = {
-    "July 26, 2024": {
-        "AP": "https://ouo.io/99TUf1",
-        "TS": "https://ouo.io/QMWY5OF",
     },
     "July 25, 2024": {
         "AP": "https://drive.google.com/file/d/1M-K4ijnRzpsCkJ_aegFhoCORiB3ZreSi/view?usp=drive_link",
