@@ -785,6 +785,10 @@ velugu_links = {
 }
 
 vaartha_links = {
+    "July 26, 2024": {
+        "AP": "https://drive.google.com/file/d/1ns-2EXZUF2HERkA3C--mc0ZhEgQjhr4U/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1JnKvElCWITfeBf8fLVOSkfNHi-RWGFBZ/view",
+    },
     "July 25, 2024": {
         "AP": "https://drive.google.com/file/d/1ns-2EXZUF2HERkA3C--mc0ZhEgQjhr4U/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1c6jsWDmfI9-ptaxlg56Hrotpfgl7_AtH/view?usp=drive_link",
