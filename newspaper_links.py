@@ -435,6 +435,10 @@ sakshi_links = {
 }
 
 andhra_jyothi_links = {
+    "July 26, 2024": {
+        "AP": "https://drive.google.com/file/d/1v4cFvbVXbCfIroS6i2q5CcjyVwnaPzcx/view",
+        "TS": "https://drive.google.com/file/d/1v4cFvbVXbCfIroS6i2q5CcjyVwnaPzcx/view",
+    },
     "July 25, 2024": {
         "AP": "https://drive.google.com/file/d/1Wmve_oQ8khfqCF4YtunicnfIzf5XrhHx/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1uJtCCk7ncPax4XHrPy9tkYOqjILnR4zd/view?usp=drive_link",
