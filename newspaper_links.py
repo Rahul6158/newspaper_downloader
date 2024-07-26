@@ -20,6 +20,9 @@ dates = [
     # Define dictionary with newspaper links
 
 enadu_links = {
+    "July 26, 2024": {
+        "AP": "https://drive.google.com/file/d/1jnMW3rqQitBxtGtvbE9xlRf7so20BhD3/view",
+        "TS": "https://drive.google.com/file/d/1NDavkmpVXC49i9cP2xPUSHW28fJNOa5W/view",
     },     
     "July 25, 2024": {
         "AP": "https://drive.google.com/file/d/1oAdcwkG6AZ0fInOnJu1EiEzhfHVzLbk2/view?usp=drive_link",
