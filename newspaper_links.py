@@ -2,7 +2,8 @@
 
 # Define the dates
 dates = [
-    "July 27, 2024","July 26, 2024", "July 25, 2024",
+    "July 29, 2024",
+    "July 28, 2024", "July 27, 2024", "July 26, 2024", "July 25, 2024",
     "July 24, 2024", "July 23, 2024", "July 22, 2024", "July 20, 2024",
     "July 19, 2024", "July 18, 2024", "July 17, 2024", "July 16, 2024",
     "July 15, 2024", "July 14, 2024", "July 13, 2024", "July 12, 2024",
@@ -20,6 +21,14 @@ dates = [
     # Define dictionary with newspaper links
 
 enadu_links = {
+    "July 29, 2024": {
+        "AP": "https://drive.google.com/file/d/1etWjxvJAWCD2y2y_QJlYajaINPm4FKO7/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1XOhxuhl6pnX-PoVc0D1qkrf5qgrtC8KF/view?usp=drive_link",
+    },
+    "July 28, 2024": {
+        "AP": "https://drive.google.com/file/d/1U5QZuYn3L1aZ_7UTdobvMWC6P0iJyytc/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1PVNhc09sFi0gIWE6-QSoy-nSOPyNYzcS/view?usp=drive_link",
+    },
     "July 27, 2024": {
         "AP": "https://drive.google.com/file/d/1-w0GL8J_FRZPDK48JwEeU7xAxIN4muYx/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1KkVmJ5GXLPx_jsONvOTLc4UCS710q7Op/view?usp=drive_link",
@@ -235,6 +244,14 @@ enadu_links = {
 }
 
 sakshi_links = {
+    "July 29, 2024": {
+        "AP": "https://drive.google.com/file/d/1kPXyH9lbYpfTNTihjDy4HSbRrdt7qKmX/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1U7mgcyWLrVAtvgUMbxpzYR0fiUG3bRCJ/view?usp=drive_link",
+    },
+    "July 28, 2024": {
+        "AP": "https://drive.google.com/file/d/1puYSpDooVozt-Ju-IEr6AXx7Lgik7mTR/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1YE5AE4l2sLnCZd9FHNLOooCuDssOb9GM/view?usp=drive_link",
+    },
     "July 27, 2024": {
         "AP": "https://drive.google.com/file/d/1zhfea7TUKlQ5-D6lS24-n_Uf1QiJmVbm/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1jlBz4bGmnsKmLuZ8oJIieteV_Q4Tj3eq/view?usp=drive_link",
@@ -446,6 +463,14 @@ sakshi_links = {
 }
 
 andhra_jyothi_links = {
+    "July 29, 2024": {
+        "AP": "https://drive.google.com/file/d/1-zoXeHR9MuLOkqp-90Rxu-O77HMb1h3R/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1P27OYwwA_yQy7NTvuT66vxA0_YhcmFXF/view?usp=drive_link",
+    },
+    "July 28, 2024": {
+        "AP": "https://drive.google.com/file/d/1xHK2z5XvMc6ytL7syR9iLdVpooytiTj3/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1tQ-8wR7qvUmpwFXmsm1oPzbAgS9c9cDQ/view?usp=drive_link",
+    },
     "July 27, 2024": {
         "AP": "https://drive.google.com/file/d/1Xu-BOnLj3jGhkLIdp2a7TRmocwrNu7BJ/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1g-38tQGycDT66KWWUIWk4ryvVk9VFImf/view?usp=drive_link",
