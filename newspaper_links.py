@@ -682,6 +682,12 @@ andhra_jyothi_links = {
 }
 
 velugu_links = {
+    "July 29, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1LFSxCsnqOMngfeXlVI5c-KJVDS3qI4ig/view?usp=drive_link",
+    },
+    "July 28, 2024": {
+        "Download Now": "https://drive.google.com/file/d/14YmDBOorUpryQhBMwbQhM8b59TAd_hHj/view?usp=drive_link",
+    },
     "July 27, 2024": {
         "Download Now": "https://drive.google.com/file/d/1Qzqcpt3fk2bi1YSOwU4eGL55UgQMwDEl/view?usp=drive_link",
     },
@@ -838,6 +844,14 @@ velugu_links = {
 }
 
 vaartha_links = {
+    "July 29, 2024": {
+        "AP": "https://drive.google.com/file/d/1yFkTrGOrDE9i5FmaImzXxlDwvWo1L50_/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1gAY4Nee-wkrCI77YaLTE8KF5APl50ZoB/view?usp=drive_link",
+    },
+    "July 28, 2024": {
+        "AP": "https://drive.google.com/file/d/1jgwZTLgkKOPMyvmIv7MZqrUoTcxA18_G/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/15W9NdspifBAP3a5W1y-Z0z8bTHEwcnM3/view?usp=drive_link",
+    },
     "July 27, 2024": {
         "AP": "https://drive.google.com/file/d/10WOTVBEAIvYjF7FZ3z4Wo6TTLgrEmmI-/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1OwjrvavUTTOSj-HnYQO-MyrnSBaRQF7R/view?usp=drive_link",
