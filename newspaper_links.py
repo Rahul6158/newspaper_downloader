@@ -2,7 +2,7 @@
 
 # Define the dates
 dates = [
-    "August 2, 2024", "August 1, 2024","July 31, 2024", "July 29, 2024",
+    "August 02, 2024", "August 01, 2024","July 31, 2024", "July 29, 2024",
     "July 28, 2024", "July 27, 2024", "July 26, 2024", "July 25, 2024",
     "July 24, 2024", "July 23, 2024", "July 22, 2024", "July 20, 2024",
     "July 19, 2024", "July 18, 2024", "July 17, 2024", "July 16, 2024",
