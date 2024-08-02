@@ -10,8 +10,7 @@ def parse_html_to_dict(html):
     # Helper function to normalize dates
     def normalize_date(date_str):
         try:
-            # Try different date formats
-            date_obj = datetime.strptime(date_str, '%d %B %Y')
+            date_obj = datetime.strptime(date_str, '%b %d, %Y')
         except ValueError:
             try:
                 date_obj = datetime.strptime(date_str, '%d %B %Y')
@@ -26,14 +25,14 @@ def parse_html_to_dict(html):
         text = p.get_text()
         # Split text to get date and links
         try:
-            date, _ = text.split(': ', 1)
+            date, links = text.split(': ', 1)
             date = normalize_date(date.strip())
         except ValueError:
             continue
         
         links_dict = {}
         for a in p.find_all('a'):
-            label = a.text
+            label = a.text.strip()
             url = a['href']
             links_dict[label] = url
         
@@ -72,3 +71,7 @@ if st.button("Parse HTML"):
         st.code(output_string, language="python")
     else:
         st.error("Please provide both HTML input and dictionary name before clicking 'Parse HTML'.")
+
+# Example HTML to test:
+# <p>Aug 2, 2024: <a href="https://drive.google.com/file/d/1WVch9nuWKnQBHMK_9Is1euyxrWx-UaoP/view?usp=drive_link" target="_blank" rel="noopener">AP</a> | <a href="https://drive.google.com/file/d/16Q5wQNwF9Sn7uh7LZ17WQ4jU7sudHTUx/view?usp=drive_link" target="_blank" rel="noopener">TS</a></p>
+# <p>Aug 1, 2024: <a href="https://drive.google.com/file/d/1l6dxW5dU_0tecuduF7Rg9sX49hZ-I5fG/view?usp=drive_link" target="_blank" rel="noopener">AP</a> | <a href="https://drive.google.com/file/d/1Ukk1J0z__ALAv6LlEYQmwTmI5iZ87toj/view?usp=drive_link" target="_blank" rel="noopener">TS</a></p>
