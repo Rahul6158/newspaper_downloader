@@ -21,7 +21,14 @@ dates = [
 
 # Define dictionary with newspaper links
 enadu_links = {
-    
+    "August 02, 2024": {
+        "AP": "https://drive.google.com/file/d/1WVch9nuWKnQBHMK_9Is1euyxrWx-UaoP/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/16Q5wQNwF9Sn7uh7LZ17WQ4jU7sudHTUx/view?usp=drive_link",
+    },
+    "August 01, 2024": {
+        "AP": "https://drive.google.com/file/d/1l6dxW5dU_0tecuduF7Rg9sX49hZ-I5fG/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1Ukk1J0z__ALAv6LlEYQmwTmI5iZ87toj/view?usp=drive_link",
+    },
     "July 31, 2024": {
         "AP": "https://drive.google.com/file/d/1BbkNkqYlHFEsc7bQ2JLe08d5D3H5khoO/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/133wHU9Mx6mjur75cnCK65aVxRwFkX_nG/view?usp=drive_link",
@@ -249,6 +256,14 @@ enadu_links = {
 }
 
 sakshi_links = {
+    "August 02, 2024": {
+        "AP": "https://drive.google.com/file/d/1ie_zdldFlzjRWJ8Mh_PfkUQgmfDW0Pm9/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/18BSTufd_sgO7Ji36wS3cNCuODyOI-vBj/view?usp=drive_link",
+    },
+    "August 01, 2024": {
+        "AP": "https://drive.google.com/file/d/1KA_oYKxVRgRK9xPQfGlpzqzLPClkvXRU/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1NNr0irQWF1StFG7ZODPMM2CAIqoImzjm/view?usp=drive_link",
+    },
     "July 31, 2024": {
         "AP": "https://drive.google.com/file/d/15yqtUmleXKdSelFynIHo6qAujEsOTx7L/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/10uNE0iP51cqC4Dhjilv2q3MGr0dtfNK-/view?usp=drive_link",
@@ -472,6 +487,14 @@ sakshi_links = {
 }
 
 andhra_jyothi_links = {
+    "August 02, 2024": {
+        "AP": "https://drive.google.com/file/d/1rfonn-Dbz-JLsy5m7fZEq0BptoFAgu39/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1zEckNJ6C2KTrtfkB_9_vXU-SZB6Phnfn/view?usp=drive_link",
+    },
+    "August 01, 2024": {
+        "AP": "https://drive.google.com/file/d/1_UOM04MUILu_u3fJLSa3Tt5JisF4BLjj/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1bwjrolyTeBq7VUgtMuDOs5QB7zDGlzWB/view?usp=drive_link",
+    },
     "July 31, 2024": {
         "AP": "https://drive.google.com/file/d/1BbkNkqYlHFEsc7bQ2JLe08d5D3H5khoO/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/133wHU9Mx6mjur75cnCK65aVxRwFkX_nG/view?usp=drive_link",
@@ -695,6 +718,12 @@ andhra_jyothi_links = {
 }
 
 velugu_links = {
+    "August 02, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1q0vuU5gNHVcIK0Ratk0XR7y0bLpf1NQt/view?usp=drive_link",
+    },
+    "August 01, 2024": {
+        "Download Now": "https://drive.google.com/file/d/1X6X0IOCvpJ3QzgfRFT0KTB1JsGXGgIQ_/view?usp=drive_link",
+    },
     "July 31, 2024": {
         "Download Now": "https://drive.google.com/file/d/1AixlIRg5oGtVYsRAxjDPOqhpx_1UMqLA/view?usp=drive_link",
     },
@@ -860,6 +889,14 @@ velugu_links = {
 }
 
 vaartha_links = {
+    "August 02, 2024": {
+        "AP": "https://drive.google.com/file/d/1xNRgzdFjNgbIIzFdQ1DNRLvHLTncPMBw/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1aZ5hITNe0qGTx9MqUA3SJM5zOK6BEnLG/view?usp=drive_link",
+    },
+    "August 01, 2024": {
+        "AP": "https://drive.google.com/file/d/1JtBATYipsuSSNkuuZWkGY8NHy_k6qZ4f/view?usp=drive_link",
+        "TS": "https://drive.google.com/file/d/1M5YxhtH--UH495hHeOfr0TBFdZFgvbvZ/view?usp=drive_link",
+    },
     "July 31, 2024": {
         "AP": "https://drive.google.com/file/d/1E9CLy0x55ckIDJRu1i9f6DPeLwJvzLi5/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1kGuQVMtffsxHZwO0-0kkxKPuAx148qMb/view?usp=drive_link",
