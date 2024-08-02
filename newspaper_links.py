@@ -2,7 +2,7 @@
 
 # Define the dates
 dates = [
-    "July 31, 2024", "July 30, 2024", "July 29, 2024",
+    "august 2, 2024", "august 1, 2024","July 31, 2024", "July 29, 2024",
     "July 28, 2024", "July 27, 2024", "July 26, 2024", "July 25, 2024",
     "July 24, 2024", "July 23, 2024", "July 22, 2024", "July 20, 2024",
     "July 19, 2024", "July 18, 2024", "July 17, 2024", "July 16, 2024",
@@ -21,7 +21,7 @@ dates = [
 
 # Define dictionary with newspaper links
 enadu_links = {
-
+    
     "July 31, 2024": {
         "AP": "https://drive.google.com/file/d/1BbkNkqYlHFEsc7bQ2JLe08d5D3H5khoO/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/133wHU9Mx6mjur75cnCK65aVxRwFkX_nG/view?usp=drive_link",
