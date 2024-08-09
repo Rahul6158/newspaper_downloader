@@ -3,7 +3,8 @@
 # Define the dates
 dates = [
 
-    "August 06, 2024", "August 05, 2024", "August 03, 2024",
+    "August 09, 2024", "August 08, 2024",
+    "August 07, 2024","August 06, 2024", "August 05, 2024", "August 03, 2024",
     "August 02, 2024", "August 01, 2024","July 31, 2024", "July 29, 2024",
     "July 28, 2024", "July 27, 2024", "July 26, 2024", "July 25, 2024",
     "July 24, 2024", "July 23, 2024", "July 22, 2024", "July 20, 2024",
@@ -23,6 +24,18 @@ dates = [
 
 # Define dictionary with newspaper links
 enadu_links = {
+    "August 09, 2024": {
+        "Link 1": "https://drive.google.com/file/d/1P5toJgmFn7-XsDAhJ_9Pci3nkBTQhekH/view?usp=drive_link",
+        "Link 2": "https://drive.google.com/file/d/1oHVEcmhPI0I97ci-ynkmv3bn6XWCzzBx/view?usp=drive_link",
+    },
+    "August 08, 2024": {
+        "Link 1": "https://drive.google.com/file/d/1iXO6bOgzzCF9ljPreBq35P1IwTr1P_5s/view?usp=drive_link",
+        "Link 2": "https://drive.google.com/file/d/154V4AtEo-kOJLp0yWmWhYfRme4H0w7OP/view?usp=drive_link",
+    },
+    "August 07, 2024": {
+        "Link 1": "https://drive.google.com/file/d/1gurm1Etcp8ZE5CFvvW2s8bXJSdbCRzue/view?usp=drive_link",
+        "Link 2": "https://drive.google.com/file/d/11j-Ipy8C6aHNfq-8wGA5S5wYdJa1Bq2T/view?usp=drive_link",
+    },
     "August 06, 2024": {
         "AP": "https://drive.google.com/file/d/1O7q-6YRRxjuPTlphOnFD7q2k9kIacO7j/view?usp=drive_link",
         "TS": "https://drive.google.com/file/d/1cxuIIDkFHKCMQb74ykjnVs4ZBxUd1lLa/view?usp=drive_link",
