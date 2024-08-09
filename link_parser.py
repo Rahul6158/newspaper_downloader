@@ -33,7 +33,7 @@ def parse_html_to_dict(html):
         
         links_dict = {}
         for a in p.find_all('a'):
-            label = a.text.strip()
+            label = a.text.strip()  # Use the label provided in the <a> tag
             url = a['href']
             links_dict[label] = url
         
@@ -45,9 +45,11 @@ def parse_html_to_dict(html):
         if len(tds) >= 2:
             date = normalize_date(tds[0].get_text().strip())
             links_dict = {}
-            for i, td in enumerate(tds[1:], start=1):
+            state_labels = ["AP", "TS"]  # Example labels for states; adjust as needed
+            for i, td in enumerate(tds[1:], start=0):
                 url = td.get_text().strip()
-                links_dict[f'Link {i}'] = url
+                label = state_labels[i] if i < len(state_labels) else f"Link {i+1}"  # Use state names or fallback
+                links_dict[label] = url
             sakshi_links[date] = links_dict
     
     return sakshi_links
