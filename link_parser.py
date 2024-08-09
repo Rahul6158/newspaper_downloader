@@ -18,9 +18,10 @@ def parse_html_to_dict(html):
                 try:
                     date_obj = datetime.strptime(date_str, '%d %b %Y')
                 except ValueError:
-                    date_obj = datetime.strptime(date_str, '%B %d, %Y')
+                    date_obj = datetime.strptime(date_str, '%d-%m-%Y')
         return date_obj.strftime('%B %d, %Y')
 
+    # Parse <p> tags
     for p in soup.find_all('p'):
         text = p.get_text()
         # Split text to get date and links
@@ -37,6 +38,17 @@ def parse_html_to_dict(html):
             links_dict[label] = url
         
         sakshi_links[date] = links_dict
+
+    # Parse <tr> tags
+    for tr in soup.find_all('tr'):
+        tds = tr.find_all('td')
+        if len(tds) >= 2:
+            date = normalize_date(tds[0].get_text().strip())
+            links_dict = {}
+            for i, td in enumerate(tds[1:], start=1):
+                url = td.get_text().strip()
+                links_dict[f'Link {i}'] = url
+            sakshi_links[date] = links_dict
     
     return sakshi_links
 
@@ -74,4 +86,5 @@ if st.button("Parse HTML"):
 
 # Example HTML to test:
 # <p>Aug 2, 2024: <a href="https://drive.google.com/file/d/1WVch9nuWKnQBHMK_9Is1euyxrWx-UaoP/view?usp=drive_link" target="_blank" rel="noopener">AP</a> | <a href="https://drive.google.com/file/d/16Q5wQNwF9Sn7uh7LZ17WQ4jU7sudHTUx/view?usp=drive_link" target="_blank" rel="noopener">TS</a></p>
-# <p>Aug 1, 2024: <a href="https://drive.google.com/file/d/1l6dxW5dU_0tecuduF7Rg9sX49hZ-I5fG/view?usp=drive_link" target="_blank" rel="noopener">AP</a> | <a href="https://drive.google.com/file/d/1Ukk1J0z__ALAv6LlEYQmwTmI5iZ87toj/view?usp=drive_link" target="_blank" rel="noopener">TS</a></p>
+# <tr data-row_id="0" class="ninja_table_row_0 nt_row_id_0">
+# <td>09-08-2024</td><td>https://drive.google.com/file/d/1P5toJgmFn7-XsDAhJ_9Pci3nkBTQhekH/view?usp=drive_link</td><td>https://drive.google.com/file/d/1oHVEcmhPI0I97ci-ynkmv3bn6XWCzzBx/view?usp=drive_link</td></tr>
